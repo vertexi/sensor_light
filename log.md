@@ -9,3 +9,8 @@
   > this is another way to do the positioning, so-called multilatering, use the transsimsion, maybe more accurate but need a external time synchronize.
 
 - [ ] Do consistence test with 3k3 ohm.
+  > ![consistency_test](./Media/consistency_test.png)
+
+  # 3-10 update
+  - [] change the target `0x01` `pos_1` `0x2` `pos_2` `0x3`
+  - [] test the RSSI position sensetivity.
