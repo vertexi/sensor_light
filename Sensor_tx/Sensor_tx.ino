@@ -40,15 +40,29 @@ void setup()
 int sensor_threshold = 100;
 bool sensor_status = false;
 //---------------------------------[LOOP]-----------------------------------
+bool senstat=TRUE;
 void loop()
 {
-  delay(100);
+  delay(1000);
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);
 //  Serial.print("sensor:");Serial.println(sensorValue);
   Rx_addr = 0x02;                                              //receiver address
   Pktlen = 0x05;                                               //set packet len to 0x13
 
+  if(senstat == TRUE)
+  {
+    Rx_addr = 0x02;
+    sensorValue = 0xFF00;
+  } else {
+    Rx_addr = 0x03;
+    sensorValue = 0x00FF;
+  }
+  Tx_fifo[3] = (uint8_t)(sensorValue >> 8);                    //split 16-Bit sensor data to 2 byte array
+  Tx_fifo[4] = (uint8_t)(sensorValue);
+  RF.send_packet(My_addr, Rx_addr, Tx_fifo, Pktlen, ack_reties);   //sents package over air. ACK is received via GPIO polling
+  senstat = !senstat;
+/*
   if (sensorValue > sensor_threshold && (!sensor_status)) 
   {
     Tx_fifo[3] = (uint8_t)(sensorValue >> 8);                    //split 16-Bit sensor data to 2 byte array
@@ -62,6 +76,7 @@ void loop()
     RF.send_packet(My_addr, Rx_addr, Tx_fifo, Pktlen, ack_reties);   //sents package over air. ACK is received via GPIO polling
     sensor_status = !sensor_status;
   }
+*/
 }
 //--------------------------[end loop]----------------------------
 

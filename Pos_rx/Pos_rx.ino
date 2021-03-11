@@ -61,6 +61,7 @@ void loop()
     Serial.print(F("TX_data: ")); Serial.print(sensorValue); Serial.println(F("\n"));
     Serial.print("Sender:"); Serial.println(sender);
 
+    /*
     if (sender == 0x10) {
       if (sensorValue > sensor_threshold) {
         digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -74,6 +75,7 @@ void loop()
         digitalWrite(LED1, LOW);    // turn the LED off by making the voltage LOW
       }
     }
+    */
 
     cc1101_packet_available = FALSE;
   }
