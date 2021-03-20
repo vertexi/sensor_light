@@ -16,7 +16,7 @@ uint8_t Tx_fifo[FIFOBUFFER], Rx_fifo[FIFOBUFFER];
 uint8_t My_addr, Tx_addr, Rx_addr, Pktlen, pktlen, Lqi, Rssi;
 uint8_t rx_addr, sender, lqi;
 int8_t rssi_dbm;
-volatile uint8_t cc1101_packet_available;
+volatile uint8_t cc1101_packet_available = FALSE;
 
 //--------------------------[class constructors]-----------------------------
 //init CC1100 constructor
@@ -39,7 +39,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x03;
+  uint8_t add_ = 0x02;
   rx_init(add_);
   pin_init();
 }
@@ -60,10 +60,14 @@ void loop()
                   Rx_fifo[4];
     if (Rx_fifo[3] < 0x50)
     {
-      RF.set_ISM(Rx_fifo[3] >> 4);
+      RF.set_ISM((uint8_t)(Rx_fifo[3] >> 4));
+      RF.receive();                        //set to RECEIVE mode
+    Serial.print("next freq:");Serial.println((uint8_t)(Rx_fifo[3] >> 4));
     } else
     {
       RF.set_ISM(0x01);
+      RF.receive();                        //set to RECEIVE mode
+      Serial.print("next freq:");Serial.println(1);
     }
     Serial.print(F("TX_data: ")); Serial.print(sensorValue); Serial.println(F("\n"));
     Serial.print("Sender:"); Serial.println(sender);

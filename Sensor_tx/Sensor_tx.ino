@@ -48,7 +48,7 @@ bool sensor_status = false;
 bool senstat=TRUE;
 void loop()
 {
-  delay(1000);
+  delay(4000);
   // read the value from the sensor:
   // sensorValue = analogRead(sensorPin);
   // read the value from the sensor:
@@ -60,8 +60,8 @@ void loop()
 
   Rx_addr = 0x02;
   send_data(Pktlen, Rx_addr, posValue);
-  Rx_addr = 0x03;
-  send_data(Pktlen, Rx_addr, posValue);
+  // Rx_addr = 0x03;
+  // send_data(Pktlen, Rx_addr, posValue);
   
 /*
   if (sensorValue > sensor_threshold && (!sensor_status)) 
@@ -94,9 +94,10 @@ void send_data(uint8_t Pktlen, uint8_t Rx_addr, uint8_t sensorValue)
     {
       tx_status = RF.send_packet(My_addr, Rx_addr, Tx_fifo, Pktlen, ack_reties);   //sents package over air. ACK is received via GPIO polling
     }while(!tx_status);
-    delay(10);
+    delay(100);
     Serial.print("next freq:");Serial.println(Tx_fifo[3] >> 4);
-    RF.set_ISM(Tx_fifo[3] >> 4);                    //set frequency 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+    RF.set_ISM((uint8_t)(Tx_fifo[3] >> 4));                    //set frequency 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+    RF.receive();                        //set to RECEIVE mode
   }while(Tx_fifo[3] < 0x50);
 
   RF.set_ISM(0x01); // reset freq to 0x01; 
