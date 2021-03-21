@@ -31,6 +31,8 @@ int sensor_threshold = 100;
 
 void rx_init(uint8_t address);
 void pin_init();
+void send_target(int sensorValue, uint8_t current_freq, int8_t rssi_dbm, 
+    uint8_t lqi, uint8_t Rx_addr);
 
 //---------------------------------[SETUP]-----------------------------------
 void setup()
@@ -56,8 +58,12 @@ void loop()
   //if valid package is received
   if (cc1101_packet_available == TRUE)
   {
-    sensorValue = ((uint16_t)(Rx_fifo[3] | 0x0f) << 8 ) +
+    sensorValue = ((uint16_t)(Rx_fifo[3] & 0x0f) << 8 ) +
                   Rx_fifo[4];
+
+    uint8_t rx_add_t = 0x01;
+    send_target(Rx_fifo[3], Rx_fifo[3], rssi_dbm, lqi, rx_add_t);
+
     if (Rx_fifo[3] < 0x50)
     {
       RF.set_ISM((uint8_t)(Rx_fifo[3] >> 4));
@@ -118,15 +124,17 @@ void pin_init()
 void rx_init(uint8_t address)
 {
   // init CC1101 RF-module and get My_address from EEPROM
-  RF.begin(My_addr);                   //inits RF module with main default settings
+  RF.begin(My_addr);             // inits RF module with main default settings
 
-  RF.sidle();                          //set to ILDE first
+  RF.sidle();                    // set to ILDE first
 
-  RF.set_mode(0x01);                   //set modulation mode 1 = GFSK_1_2_kb; 2 = GFSK_38_4_kb; 3 = GFSK_100_kb; 4 = MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
-  RF.set_ISM(0x01);                    //set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
-  RF.set_channel(0x01);                //set channel
-  RF.set_output_power_level(10);        //set PA level in dbm
-  RF.set_myaddr(address);                 //set my own address
+  RF.set_mode(0x01);             // set modulation mode 1 = GFSK_1_2_kb; 2 =
+                                 // GFSK_38_4_kb; 3 = GFSK_100_kb; 4 =
+                                 // MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
+  RF.set_ISM(0x01);              // set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+  RF.set_channel(0x01);          // set channel
+  RF.set_output_power_level(10); // set PA level in dbm
+  RF.set_myaddr(address);        // set my own address
   My_addr = address;
 
   RF.spi_write_register(IOCFG2, 0x06);
@@ -137,4 +145,23 @@ void rx_init(uint8_t address)
   Serial.println(F("CC1101 RX Demo for MSP430"));   //welcome message
 }
 
+void send_target(uint8_t tx1, uint8_t tx2, int8_t rssi_dbm, 
+    uint8_t lqi, uint8_t Rx_addr)
+{
+  uint8_t pktlen = 0x07;                                 // complete Pktlen for ACK packet
+  uint8_t tx_buffer[0x07];                               // tx buffer array init
 
+  tx_buffer[3] = tx1      ; tx_buffer[4] = tx2 ;         // fill buffer with ACK Payload
+  tx_buffer[5] = rssi_dbm ; tx_buffer[6] = lqi ;         // fill buffer with ACK Payload
+
+  RF.set_ISM(0x01);                                      // set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+  RF.receive();                                          // set to RECEIVE mode
+
+  tx_payload_burst(My_addr, Rx_addr, tx_buffer, pktlen); // load payload to CC1101
+  transmit();                                            // send package over the air
+  receive();                                             // set CC1101 in receive mode
+
+  if(debug_level > 0){                                   // debut output
+    Serial.println(F("data send to target!"));
+  }
+}
