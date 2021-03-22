@@ -1,0 +1,174 @@
+QI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!TX_data: 236Sender:3
+next freq:5
+rssi:148
+lqi:43
+Pkt->:
+no Pkt->:
+RX_FIFO:06010230EBD72B |2CAC|
+RSSI:-56 LQI:2C CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 235Sender:2
+next freq:3
+rssi:215
+lqi:43
+Pkt->:
+RX_FIFO:06010240EB942B |2CAD|
+RSSI:-56 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 235Sender:2
+next freq:4
+rssi:148
+lqi:43
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+kt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+RX_FIFO:06010320EBCF2C |27AF|
+RSSI:-59 LQI:2F CPkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+RX_FIFO:06010320EDD12C |27AD|
+RSSI:-59 LQI:2D CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!TX_data: 237Sender:3
+next freq:2
+rssi:209
+lqi:44
+Pkt->:
+RX_FIFO:06010330EDD92C |27AE|
+RSSI:-59 LQI:2E CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!TX_data: 237Sender:3
+next freq:3
+rssi:217
+lqi:44
+Pkt->:
+RX_FIFO:06010340ED932B |27AA|
+RSSI:-59 LQI:2A CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!TX_data: 237Sender:3
+next freq:4
+rssi:147
+lqi:43
+Pkt->:
+RX_FIFO:06010350ED942C |2AB0|
+RSSI:-57 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!TX_data: 237Sender:3
+next freq:5
+rssi:148
+lqi:44
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+RX_FIFO:06010220EBD62C |34AD|
+RSSI:-52 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 235Sender:2
+next freq:2
+rssi:214
+lqi:44
+kt->:
+RX_FIFO:06010240EB972C |35AD|
+RSSI:-52 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 235Sender:2
+next freq:4
+rssi:151
+lqi:44
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX OverfPkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+RX_FIFO:0601022000B22E |30AE|
+RSSI:-54 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 0Sender:2
+next freq:2
+rssi:178
+lqi:46
+Pkt->:
+RX_FIFO:0601023000D12E |2EAD|
+RSSI:-55 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 0Sender:2
+next freq:3
+rssi:209
+lqi:46
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+no bytes in RX buffer or RX Overflow!: 0
+Pkt->:
+RX_FIFO:0601022000BC2C |2CAD|
+RSSI:-56 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 0Sender:2
+next freq:2
+rssi:188
+lqi:44
+Pkt->:
+RX_FIFO:0601023000CF2C |2CAD|
+RSSI:-56 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 0Sender:2
+next freq:3
+rssi:207
+lqi:44
+Pkt->:
+RX_FIFO:06010240008A7F |2CAD|
+RSSI:-56 LQI:2D CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!TX_data: 0Sender:2
+next freq:4
+rssi:138
+lqi:127

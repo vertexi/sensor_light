@@ -45,7 +45,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x03;
+  uint8_t add_ = 0x02;
   rx_init(add_);
   pin_init();
   
@@ -98,11 +98,15 @@ void loop()
     cc1101_packet_available = FALSE;
 
     prev_fail_time = millis();
+    fail_time = 5000;
   } else
   {
     if ((millis() - prev_fail_time) > fail_time)
     {
       Serial.println("failing!!!");
+
+      fail_time = 100;
+
       if (fail_freq == 0x05)
       {
         fail_freq = 0x01;
