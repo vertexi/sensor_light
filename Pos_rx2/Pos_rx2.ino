@@ -28,6 +28,10 @@ int sensor_threshold = 100;
 // most launchpads have a red LED
 #define LED RED_LED
 #define LED1 P2_3
+uint8_t ack_reties = 5;
+unsigned long prev_fail_time = 0;
+uint8_t fail_freq = 1;
+int fail_time = 5000;
 
 void rx_init(uint8_t address);
 void pin_init();
@@ -41,62 +45,17 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x02;
+  uint8_t add_ = 0x03;
   rx_init(add_);
   pin_init();
+  
+  prev_fail_time = millis();// init the failure time
 }
 
 //---------------------------------[LOOP]-----------------------------------
+
 void loop()
 {
-  /*----------------------------------------------
-    - Here we are expecting a 7-byte message.
-    - Byte[6:3] contain a 32-bit timestamp.
-    ------------------------------------------------*/
-
-  pktlen = 0x05;
-  //if valid package is received
-  if (cc1101_packet_available == TRUE)
-  {
-    sensorValue = ((uint16_t)(Rx_fifo[3] & 0x0f) << 8 ) +
-                  Rx_fifo[4];
-
-    uint8_t rx_add_t = 0x01;
-    send_target(Rx_fifo[3], Rx_fifo[3], rssi_dbm, lqi, rx_add_t);
-
-    if (Rx_fifo[3] < 0x50)
-    {
-      RF.set_ISM((uint8_t)(Rx_fifo[3] >> 4));
-      RF.receive();                        //set to RECEIVE mode
-    Serial.print("next freq:");Serial.println((uint8_t)(Rx_fifo[3] >> 4));
-    } else
-    {
-      RF.set_ISM(0x01);
-      RF.receive();                        //set to RECEIVE mode
-      Serial.print("next freq:");Serial.println(1);
-    }
-    Serial.print(F("TX_data: ")); Serial.print(sensorValue); Serial.println(F("\n"));
-    Serial.print("Sender:"); Serial.println(sender);
-
-    /*
-    if (sender == 0x10) {
-      if (sensorValue > sensor_threshold) {
-        digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
-      } else {
-        digitalWrite(LED, LOW);    // turn the LED off by making the voltage LOW
-      }
-    } else if (sender == 0x20) {
-      if (sensorValue > sensor_threshold) {
-        digitalWrite(LED1, HIGH);   // turn the LED on (HIGH is the voltage level)
-      } else {
-        digitalWrite(LED1, LOW);    // turn the LED off by making the voltage LOW
-      }
-    }
-    */
-
-    cc1101_packet_available = FALSE;
-  }
-
   if (RF.packet_available() == TRUE)
   {
     if (RF.get_payload(Rx_fifo, pktlen, rx_addr, sender, rssi_dbm, lqi) == TRUE) //stores the payload data to Rx_fifo
@@ -107,6 +66,56 @@ void loop()
     else
     {
       cc1101_packet_available = FALSE;                               //set flag that an package is corrupted
+    }
+  }
+
+  pktlen = 0x05;
+  //if valid package is received
+  if (cc1101_packet_available == TRUE)
+  {
+    sensorValue = ((uint16_t)(Rx_fifo[3] & 0x0f) << 8 ) +
+                  Rx_fifo[4];
+
+    uint8_t rx_add_t = 0x01;
+    send_target(Rx_fifo[3], Rx_fifo[4], rssi_dbm, lqi, rx_add_t);
+
+    if (Rx_fifo[3] < 0x50)
+    {
+      RF.set_ISM((uint8_t)(Rx_fifo[3] >> 4));
+      RF.receive();                        //set to RECEIVE mode
+      Serial.print("next freq:");Serial.println((uint8_t)(Rx_fifo[3] >> 4));
+    } else
+    {
+      RF.set_ISM(0x01);
+      RF.receive();                        //set to RECEIVE mode
+      Serial.print("next freq:");Serial.println(1);
+    }
+    Serial.print(F("TX_data: ")); Serial.print(sensorValue);
+    Serial.print("Sender:"); Serial.println(sender);
+    Serial.print("rssi:"); Serial.println(rssi_dbm);
+    Serial.print("lqi:"); Serial.println(lqi);
+
+    cc1101_packet_available = FALSE;
+
+    prev_fail_time = millis();
+  } else
+  {
+    if ((millis() - prev_fail_time) > fail_time)
+    {
+      Serial.println("failing!!!");
+      if (fail_freq == 0x05)
+      {
+        fail_freq = 0x01;
+        RF.set_ISM(fail_freq);
+        RF.receive();                        //set to RECEIVE mode
+        Serial.print("try freq:");Serial.println(1);
+      } else
+      {
+        RF.set_ISM(fail_freq++);
+        RF.receive();                        //set to RECEIVE mode
+        Serial.print("try freq:");Serial.println(fail_freq-1);
+      }
+      prev_fail_time = millis();
     }
   }
 }
@@ -157,11 +166,7 @@ void send_target(uint8_t tx1, uint8_t tx2, int8_t rssi_dbm,
   RF.set_ISM(0x01);                                      // set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
   RF.receive();                                          // set to RECEIVE mode
 
-  tx_payload_burst(My_addr, Rx_addr, tx_buffer, pktlen); // load payload to CC1101
-  transmit();                                            // send package over the air
-  receive();                                             // set CC1101 in receive mode
+  RF.send_packet(My_addr, Rx_addr, tx_buffer, pktlen, ack_reties);
 
-  if(debug_level > 0){                                   // debut output
-    Serial.println(F("data send to target!"));
-  }
+  Serial.println(F("data send to target!"));
 }

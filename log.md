@@ -32,3 +32,6 @@ burst function.
 
 ==**warning!! need to check the rssi is that was ack message storage? even it
 wasn't matter though.**==
+
+**bug** use `millis()` to count no communication interval. will 50 days
+overflow.

@@ -53,11 +53,14 @@ void loop()
   //if valid package is received
   if (cc1101_packet_available == TRUE)
   {
-    sensorValue = ((uint16_t)Rx_fifo[3] << 8) +
+    sensorValue = ((uint16_t)(Rx_fifo[3] & 0x0f) << 8 ) +
                   Rx_fifo[4];
 
-    Serial.print(F("TX_data: ")); Serial.print(sensorValue); Serial.println(F("\n"));
+    Serial.print(F("TX_data: ")); Serial.print(sensorValue);
     Serial.print("Sender:"); Serial.println(sender);
+    Serial.print("next freq:");Serial.println((uint8_t)(Rx_fifo[3] >> 4));
+    Serial.print("rssi:"); Serial.println(Rx_fifo[5]);
+    Serial.print("lqi:"); Serial.println(Rx_fifo[6]);
 
     cc1101_packet_available = FALSE;
   }
@@ -98,4 +101,3 @@ void rx_init(uint8_t address)
 
   Serial.println(F("CC1101 RX Demo for MSP430"));   //welcome message
 }
-
