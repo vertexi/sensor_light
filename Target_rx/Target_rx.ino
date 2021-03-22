@@ -53,14 +53,14 @@ void loop()
   //if valid package is received
   if (cc1101_packet_available == TRUE)
   {
-    sensorValue = ((uint16_t)(Rx_fifo[3] & 0x0f) << 8 ) +
+    sensorValue = (uint16_t)(Rx_fifo[3] << 8) +
                   Rx_fifo[4];
 
     Serial.print(F("TX_data: ")); Serial.print(sensorValue);
     Serial.print("Sender:"); Serial.println(sender);
-    Serial.print("next freq:");Serial.println((uint8_t)(Rx_fifo[3] >> 4));
-    Serial.print("rssi:"); Serial.println(Rx_fifo[5]);
-    Serial.print("lqi:"); Serial.println(Rx_fifo[6]);
+    Serial.print("next freq:");Serial.println(Rx_fifo[5]);
+    Serial.print("rssi:"); Serial.println(Rx_fifo[6]);
+    Serial.print("lqi:"); Serial.println(Rx_fifo[7]);
 
     cc1101_packet_available = FALSE;
   }
@@ -88,7 +88,7 @@ void rx_init(uint8_t address)
   RF.sidle();                          //set to ILDE first
 
   RF.set_mode(0x01);                   //set modulation mode 1 = GFSK_1_2_kb; 2 = GFSK_38_4_kb; 3 = GFSK_100_kb; 4 = MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
-  RF.set_ISM(0x01);                    //set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+  RF.set_ISM(0x02);                    //set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
   RF.set_channel(0x01);                //set channel
   RF.set_output_power_level(10);        //set PA level in dbm
   RF.set_myaddr(address);                 //set my own address

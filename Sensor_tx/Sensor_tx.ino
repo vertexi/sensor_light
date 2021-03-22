@@ -55,7 +55,7 @@ void loop()
   posValue = analogRead(posPin);
   Serial.print("sensor:");Serial.println(posValue);
 
-  Pktlen = 0x05;                                               //set packet len to 0x13
+  Pktlen = 0x06;                                               //set packet len to 0x13
   Rx_addr = 0x02;
   send_data(Pktlen, Rx_addr, posValue);
   Rx_addr = 0x03;
@@ -81,27 +81,29 @@ void loop()
 
 void send_data(uint8_t Pktlen, uint8_t Rx_addr, int sensorValue)
 {
-  Tx_fifo[3] = (uint8_t)(0x10 + (sensorValue >> 8));
-  //split 16-Bit sensor data to 2 byte array
+  Tx_fifo[3] = (uint8_t)(sensorValue >> 8);
   Tx_fifo[4] = (uint8_t)(sensorValue);
+  //split 16-Bit sensor data to 2 byte array
+  
+  Tx_fifo[5] = (uint8_t)(0x01); //  prepare the init channel
 
   bool tx_status = FALSE;
   do
   {
-    Tx_fifo[3] = Tx_fifo[3] + 0x10;
+    Tx_fifo[5] += 0x32;
     do
     {
       tx_status = RF.send_packet(My_addr, Rx_addr, Tx_fifo, Pktlen, ack_reties);
       //sents package over air. ACK is received via GPIO polling
     }while(!tx_status);
     delay(100);
-    Serial.print("next freq:");Serial.println(Tx_fifo[3] >> 4);
-    RF.set_ISM((uint8_t)(Tx_fifo[3] >> 4));
-    //set frequency 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+    Serial.print("next channel:");Serial.println(Tx_fifo[5]);
+    
+    RF.set_channel(Tx_fifo[5]); // set to next channel. prepare to send.
     RF.receive();                        //set to RECEIVE mode
-  }while(Tx_fifo[3] < 0x50);
+  }while(Tx_fifo[5] < 0xff);
 
-  RF.set_ISM(0x01); // reset freq to 0x01; 
+  RF.set_channel(0x01); // reset channel to 0x01; 
 }
 
 void tx_init(uint8_t address)
@@ -111,7 +113,7 @@ void tx_init(uint8_t address)
 
   RF.sidle();                                     // set to ILDE first
   RF.set_mode(0x01);                              // set modulation mode 1 = GFSK_1_2_kb; 2 = GFSK_38_4_kb; 3 = GFSK_100_kb; 4 = MSK_250_kb; 5 = MSK_500_kb; 6 =  OOK_4_8_kb
-  RF.set_ISM(0x01);                               // set frequency 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+  RF.set_ISM(0x02);                               // set frequency 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
   RF.set_channel(0x01);                           // set channel
   RF.set_output_power_level(10);                  // set PA level in dbm
   RF.set_myaddr(address);                         // set my own address
