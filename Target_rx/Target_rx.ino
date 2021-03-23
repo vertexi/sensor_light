@@ -59,7 +59,7 @@ void loop()
     Serial.print(F("TX_data: ")); Serial.print(sensorValue);
     Serial.print("Sender:"); Serial.println(sender);
     Serial.print("next freq:");Serial.println(Rx_fifo[5]);
-    Serial.print("rssi:"); Serial.println(Rx_fifo[6]);
+    Serial.print("rssi:"); Serial.println((int8_t)Rx_fifo[6]);
     Serial.print("lqi:"); Serial.println(Rx_fifo[7]);
 
     cc1101_packet_available = FALSE;

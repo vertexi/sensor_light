@@ -85,25 +85,27 @@ void send_data(uint8_t Pktlen, uint8_t Rx_addr, int sensorValue)
   Tx_fifo[4] = (uint8_t)(sensorValue);
   //split 16-Bit sensor data to 2 byte array
   
-  Tx_fifo[5] = (uint8_t)(0x01); //  prepare the init channel
+  uint16_t temp_ch = 0x01;
 
   bool tx_status = FALSE;
+
   do
   {
-    Tx_fifo[5] += 0x32;
+    temp_ch += 0x32;
+    if (temp_ch > 0xff)    temp_ch = 0x01;
+    Tx_fifo[5] = (uint8_t)temp_ch; //  prepare the init channel
+
     do
     {
       tx_status = RF.send_packet(My_addr, Rx_addr, Tx_fifo, Pktlen, ack_reties);
       //sents package over air. ACK is received via GPIO polling
     }while(!tx_status);
     delay(100);
-    Serial.print("next channel:");Serial.println(Tx_fifo[5]);
-    
-    RF.set_channel(Tx_fifo[5]); // set to next channel. prepare to send.
-    RF.receive();                        //set to RECEIVE mode
-  }while(Tx_fifo[5] < 0xff);
+    Serial.print("next channel:");Serial.println(temp_ch);
 
-  RF.set_channel(0x01); // reset channel to 0x01; 
+    RF.set_channel(temp_ch); // set to next channel. prepare to send.
+    RF.receive();                        //set to RECEIVE mode
+  }while (temp_ch != 0x01);
 }
 
 void tx_init(uint8_t address)

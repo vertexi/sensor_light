@@ -30,7 +30,7 @@ int sensor_threshold = 100;
 #define LED1 P2_3
 uint8_t ack_reties = 5;
 unsigned long prev_fail_time = 0;
-uint8_t fail_channel = 1;
+uint16_t fail_channel = 1;
 int fail_time = 5000;
 
 void rx_init(uint8_t address);
@@ -45,7 +45,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x02;
+  uint8_t add_ = 0x03;
   rx_init(add_);
   pin_init();
   
@@ -68,27 +68,20 @@ void loop()
       cc1101_packet_available = FALSE;                               //set flag that an package is corrupted
     }
   }
-  
+
   //if valid package is received
   if (cc1101_packet_available == TRUE)
   {
     sensorValue = (uint16_t)(Rx_fifo[3] << 8) +
-                  Rx_fifo[4];
+      Rx_fifo[4];
 
     uint8_t rx_add_t = 0x01;
     send_target(Rx_fifo[3], Rx_fifo[4], Rx_fifo[5], rssi_dbm, lqi, rx_add_t);
 
-    if (Rx_fifo[5] < 0xff)
-    {
-      RF.set_channel(Rx_fifo[5]);
-      RF.receive();                        //set to RECEIVE mode
-      Serial.print("next channel:");Serial.println(Rx_fifo[5]);
-    } else
-    {
-      RF.set_channel(0x01);
-      RF.receive();                        //set to RECEIVE mode
-      Serial.print("next channel:");Serial.println(1);
-    }
+    RF.set_channel(Rx_fifo[5]);
+    RF.receive();                        //set to RECEIVE mode
+    Serial.print("next channel:");Serial.println(Rx_fifo[5]);
+
     Serial.print(F("TX_data: ")); Serial.print(sensorValue);
     Serial.print("Sender:"); Serial.println(sender);
     Serial.print("rssi:"); Serial.println(rssi_dbm);
@@ -100,25 +93,23 @@ void loop()
     fail_time = 5000;
   } else
   {
+
     if ((millis() - prev_fail_time) > fail_time)
     {
       Serial.println("failing!!!");
-
       fail_time = 100;
 
       if (fail_channel > 0xff)
       {
         fail_channel = 0x01;
-        RF.set_channel(fail_channel);
-        RF.receive();                        //set to RECEIVE mode
-        Serial.print("try set_channel:");Serial.println(1);
       } else
       {
         fail_channel += 0x32;
-        RF.set_channel(fail_channel);
-        RF.receive();                        //set to RECEIVE mode
-        Serial.print("try channel:");Serial.println(fail_channel);
       }
+      RF.set_channel(fail_channel);
+      RF.receive();                        //set to RECEIVE mode
+
+      Serial.print("try channel:");Serial.println(fail_channel);
       prev_fail_time = millis();
     }
   }
