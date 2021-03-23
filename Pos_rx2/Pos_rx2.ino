@@ -45,7 +45,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x03;
+  uint8_t add_ = 0x04;
   rx_init(add_);
   pin_init();
   
@@ -99,15 +99,13 @@ void loop()
       Serial.println("failing!!!");
       fail_time = 100;
 
+      fail_channel += 0x32;
       if (fail_channel > 0xff)
       {
         fail_channel = 0x01;
-      } else
-      {
-        fail_channel += 0x32;
+        RF.set_channel(fail_channel);
+        RF.receive();                        //set to RECEIVE mode
       }
-      RF.set_channel(fail_channel);
-      RF.receive();                        //set to RECEIVE mode
 
       Serial.print("try channel:");Serial.println(fail_channel);
       prev_fail_time = millis();

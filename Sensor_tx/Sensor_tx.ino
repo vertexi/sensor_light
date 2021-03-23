@@ -37,7 +37,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x04;
+  uint8_t add_ = 0x05;
   tx_init(add_);
 
   pinMode(posPin, INPUT);
@@ -59,6 +59,8 @@ void loop()
   Rx_addr = 0x02;
   send_data(Pktlen, Rx_addr, posValue);
   Rx_addr = 0x03;
+  send_data(Pktlen, Rx_addr, posValue);
+  Rx_addr = 0x04;
   send_data(Pktlen, Rx_addr, posValue);
   
 /*
