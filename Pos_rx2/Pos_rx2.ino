@@ -103,9 +103,9 @@ void loop()
       if (fail_channel > 0xff)
       {
         fail_channel = 0x01;
-        RF.set_channel(fail_channel);
-        RF.receive();                        //set to RECEIVE mode
       }
+      RF.set_channel(fail_channel);
+      RF.receive();                        //set to RECEIVE mode
 
       Serial.print("try channel:");Serial.println(fail_channel);
       prev_fail_time = millis();
