@@ -7,6 +7,7 @@
   '
   '-----------------------------------------------------------------------------*/
 
+#include "math.h"
 #include <CC1101_MSP430.h>
 
 //---------------------------=[Global variables]=----------------------------
@@ -31,8 +32,13 @@ int sensor_threshold = 100;
 int8_t pos_vector[6];
 uint8_t pos_vector_status;
 
+uint8_t ledPin1 = 5;    // LED1 connected to digital pin 5
+uint8_t ledPin2 = 6;    // LED1 connected to digital pin 6
+
 void rx_init(uint8_t address);
 void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi);
+uint8_t positioning();
+void light_control(uint8_t pos);
 
 __inline__ double __attribute__((const)) divide( double y, double x ) {
                                     // calculates y/x
@@ -53,6 +59,9 @@ void setup()
   // init serial Port for debugging
   Serial.begin(9600);
   Serial.println();
+  
+  pinMode(ledPin1, OUTPUT);   // sets the pin as output 
+  pinMode(ledPin2, OUTPUT);   // sets the pin as output 
 
   uint8_t add_ = 0x01;
   rx_init(add_);
@@ -82,7 +91,7 @@ void loop()
     fill_pos_vector(sender, Rx_fifo[5], (int8_t)Rx_fifo[6]);
     if (pos_vector_status == 0x3f)
     {
-
+      light_control(positioning());
       for (int i = 0; i < 6; i++)
       {
         pos_vector[i] = 0;
@@ -116,7 +125,7 @@ uint8_t positioning()
   for (int i = 0; i < 6; i++)
   {
     pos_vector[i] -= means[i];
-    pos_vector[i] /= divider[i];
+    pos_vector[i] *= divide(1, divider[i]);
   }
 
   //linear transform
@@ -129,7 +138,7 @@ uint8_t positioning()
 
   //logstic
   double result = 0;
-  divide(1,(1+pow(2.71828, -linear)));
+  divide(1,(1+powf(2.71828, -linear)));
  
   if (result < 0.5)
   {
@@ -142,9 +151,14 @@ uint8_t positioning()
 
 void light_control(uint8_t pos)
 {
+  digitalWrite(ledPin1, LOW);        // sets the digital pin 13 off
+  digitalWrite(ledPin2, LOW);        // sets the digital pin 13 off
   if (pos == 1)
   {
-
+    digitalWrite(ledPin1, HIGH);        // sets the digital pin 13 off
+  } else
+  {
+    digitalWrite(ledPin2, HIGH);        // sets the digital pin 13 off
   }
 }
 
