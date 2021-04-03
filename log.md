@@ -35,3 +35,12 @@ wasn't matter though.**==
 
 **bug** use `millis()` to count no communication interval. will 50 days
 overflow.
+
+**importtant idea**: you can actually try to use sensor_tx's rrsi or lqi to
+performe the positioning algorithm and send light control signal to the taget.
+to do this can reduce the signal transsformation error.
+now i realise that maybe the positioning algorithm have to more computer power
+that need target processor handle everything.
+
+## prepare to the next test
+

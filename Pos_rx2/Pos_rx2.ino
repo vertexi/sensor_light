@@ -28,7 +28,7 @@ int sensor_threshold = 100;
 // most launchpads have a red LED
 #define LED RED_LED
 #define LED1 P2_3
-uint8_t ack_reties = 5;
+uint8_t ack_reties = 10;
 unsigned long prev_fail_time = 0;
 uint16_t fail_channel = 1;
 int fail_time = 5000;
@@ -45,7 +45,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x04;
+  uint8_t add_ = 0x03;
   rx_init(add_);
   pin_init();
   
@@ -106,6 +106,7 @@ void loop()
       }
       RF.set_channel(fail_channel);
       RF.receive();                        //set to RECEIVE mode
+      delay(20);
 
       Serial.print("try channel:");Serial.println(fail_channel);
       prev_fail_time = millis();

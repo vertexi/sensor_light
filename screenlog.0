@@ -1,1483 +1,3690 @@
-kt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102003D33DB2D |56B1|
-RSSI:-35 LQI:31 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 61Sender:2
-next freq:51
-rssi:-3Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033C22E |56B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-62
-lqi:46
-Pkt->:
-RX_FIFO:070102000065C52E |56B2|
-RSSI:-35 LQI:32 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-59
-lqi:46
-Pkt->:
-RX_FIFO:070102000097CB2E |56B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-53
-lqi:46
-Pkt->:
-RX_FIFO:0701020000C9C62E |56B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-58
-lqi:46
-Pkt->:
-RX_FIFO:0701020000FBD02F |56B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-48
-lqi:47
-Pkt->:
-RX_FIFO:070102000001C82F |57AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-56
-lqi:47
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033C72A |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-57
-lqi:42
-Pkt->:
-RX_FIFO:070103000065D02A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-48
-lqi:42
-Pkt->:
-RX_FIFO:070103000097D02A |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-48
-lqi:42
-Pkt->:
-RX_FIFO:0701030000C9D02A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-48
-lqi:42
-Pkt->:
-RX_FIFO:0701030000FBD12A |4AAC|
-RSSI:-41 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-47
-lqi:42
-Pkt->:
-RX_FIFO:070103000001D12A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-47
-lqi:42
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033BD2E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-67
-lqi:46
-Pkt->:
-RX_FIFO:070104000065B22F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-78
-lqi:47
-Pkt->:
-RX_FIFO:070104000097C231 |43B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-62
-lqi:49
-Pkt->:
-RX_FIFO:0701040000C9B32E |42B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-77
-lqi:46
-Pkt->:
-RX_FIFO:0701040000FBC331 |43B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-61
-lqi:49
-Pkt->:
-RX_FIFO:070104000001C030 |43B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-64
-lqi:48
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033CC2D |56AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-52
-lqi:45
-Pkt->:
-RX_FIFO:070102000065CD2D |56AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-51
-lqi:45
-Pkt->:
-RX_FIFO:070102000097D12E |57B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-47
-lqi:46
-Pkt->:
-RX_FIFO:0701020000C9C52D |56AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-59
-lqi:45
-Pkt->:
-RX_FIFO:0701020000FBCE2D |56AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-50
-lqi:45
-Pkt->:
-RX_FIFO:070102000001D02D |56B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-48
-lqi:45
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033C629 |4AAA|
-RSSI:-41 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-58
-lqi:41
-Pkt->:
-RX_FIFO:070103000065C629 |4AAC|
-RSSI:-41 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-58
-lqi:41
-Pkt->:
-RX_FIFO:070103000097CB29 |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-53
-lqi:41
-Pkt->:
-RX_FIFO:0701030000C9CA29 |4CA7|
-RSSI:-40 LQI:27 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-54
-lqi:41
-Pkt->:
-RX_FIFO:0701030000FBCC29 |47A9|
-RSSI:-43 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-52
-lqi:41
-Pkt->:
-RX_FIFO:070103000001CD29 |4CA9|
-RSSI:-40 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-51
-lqi:41
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033B32F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-77
-lqi:47
-Pkt->:
-RX_FIFO:070104000065B22F |41B1|
-RSSI:-46 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-78
-lqi:47
-Pkt->:
-RX_FIFO:070104000097BC2F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-68
-lqi:47
-Pkt->:
-RX_FIFO:0701040000C9BD30 |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-67
-lqi:48
-Pkt->:
-RX_FIFO:0701040000FBBE2F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-66
-lqi:47
-Pkt->:
-RX_FIFO:070104000001C12E |40AF|
-RSSI:-46 LQI:2F CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-63
-lqi:46
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033CB2F |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-53
-lqi:47
-Pkt->:
-RX_FIFO:070102000065CE2D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-50
-lqi:45
-Pkt->:
-RX_FIFO:070102000097CF2E |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-49
-lqi:46
-Pkt->:
-RX_FIFO:0701020000C9CF2E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-49
-lqi:46
-Pkt->:
-RX_FIFO:0701020000FBCC2E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-52
-lqi:46
-Pkt->:
-RX_FIFO:070102000001CB2D |57B0|
-RSSI:-35 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-53
-lqi:45
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033BF2A |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-65
-lqi:42
-Pkt->:
-RX_FIFO:070103000065C32A |4CAD|
-RSSI:-40 LQI:2D CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-61
-lqi:42
-Pkt->:
-RX_FIFO:070103000097C42A |4CAC|
-RSSI:-40 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-60
-lqi:42
-Pkt->:
-RX_FIFO:0701030000C9BA29 |4CA9|
-RSSI:-40 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-70
-lqi:41
-Pkt->:
-RX_FIFO:0701030000FBC229 |4CA9|
-RSSI:-40 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-62
-lqi:41
-Pkt->:
-RX_FIFO:070103000001C62B |4CAA|
-RSSI:-40 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-58
-lqi:43
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033C02F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-64
-lqi:47
-Pkt->:
-RX_FIFO:070104000065C230 |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-62
-lqi:48
-Pkt->:
-RX_FIFO:070104000097C22E |3FB1|
-RSSI:-47 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-62
-lqi:46
-Pkt->:
-RX_FIFO:0701040000C9C02F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-64
-lqi:47
-Pkt->:
-RX_FIFO:0701040000FBBF2E |3CB0|
-RSSI:-48 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-65
-lqi:46
-Pkt->:
-RX_FIFO:070104000001B42D |43B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-76
-lqi:45
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033BB2D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-69
-lqi:45
-Pkt->:
-RX_FIFO:070102000065C22C |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-62
-lqi:44
-Pkt->:
-RX_FIFO:070102000097CC2D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-52
-lqi:45
-Pkt->:
-RX_FIFO:0701020000C9D22D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-46
-lqi:45
-Pkt->:
-RX_FIFO:0701020000FBD52E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-43
-lqi:46
-Pkt->:
-RX_FIFO:070102000001D22C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-46
-lqi:44
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033CE2A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-50
-lqi:42
-Pkt->:
-RX_FIFO:070103000065D129 |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-47
-lqi:41
-Pkt->:
-RX_FIFO:070103000097D129 |4AAC|
-RSSI:-41 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-47
-lqi:41
-Pkt->:
-RX_FIFO:0701030000C9D22A |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-46
-lqi:42
-Pkt->:
-RX_FIFO:0701030000FBD22A |4AAD|
-RSSI:-41 LQI:2D CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-46
-lqi:42
-Pkt->:
-RX_FIFO:070103000001D229 |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-46
-lqi:41
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033BF2E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-65
-lqi:46
-Pkt->:
-RX_FIFO:070104000065B52E |42B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-75
-lqi:46
-Pkt->:
-RX_FIFO:070104000097B92E |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-71
-lqi:46
-Pkt->:
-RX_FIFO:0701040000C9BF2D |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-65
-lqi:45
-Pkt->:
-RX_FIFO:0701040000FBC22E |42AF|
-RSSI:-45 LQI:2F CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-62
-lqi:46
-Pkt->:
-RX_FIFO:070104000001C32E |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-61
-lqi:46
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033CB2C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-53
-lqi:44
-Pkt->:
-RX_FIFO:070102000065CD2E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-51
-lqi:46
-Pkt->:
-RX_FIFO:070102000097D12B |58B1|
-RSSI:-34 LQI:31 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-47
-lqi:43
-Pkt->:
-RX_FIFO:0701020000C9D22D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-46
-lqi:45
-Pkt->:
-RX_FIFO:0701020000FBD42D |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-44
-lqi:45
-Pkt->:
-RX_FIFO:070102000001CF2E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-49
-lqi:46
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033C629 |4AA7|
-RSSI:-41 LQI:27 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-58
-lqi:41
-Pkt->:
-RX_FIFO:070103000065C92A |4AAD|
-RSSI:-41 LQI:2D CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-55
-lqi:42
-Pkt->:
-RX_FIFO:070103000097CA2B |4AAC|
-RSSI:-41 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-54
-lqi:43
-Pkt->:
-RX_FIFO:0701030000C9C72A |4AA7|
-RSSI:-41 LQI:27 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-57
-lqi:42
-Pkt->:
-RX_FIFO:0701030000FBC02A |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-64
-lqi:42
-Pkt->:
-RX_FIFO:070103000001B92A |4AAE|
-RSSI:-41 LQI:2E CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-71
-lqi:42
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033C52E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-59
-lqi:46
-Pkt->:
-RX_FIFO:070104000065C62F |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-58
-lqi:47
-Pkt->:
-RX_FIFO:070104000097C32E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-61
-lqi:46
-Pkt->:
-RX_FIFO:0701040000C9C12D |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-63
-lqi:45
-Pkt->:
-RX_FIFO:0701040000FBC32E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-61
-lqi:46
-Pkt->:
-RX_FIFO:070104000001C62E |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-58
-lqi:46
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033CD2D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-51
-lqi:45
-Pkt->:
-RX_FIFO:070102000065CD2D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-51
-lqi:45
-Pkt->:
-RX_FIFO:070102000097CB2C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-53
-lqi:44
-Pkt->:
-RX_FIFO:0701020000C9D02C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-48
-lqi:44
-Pkt->:
-RX_FIFO:0701020000FBD02D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-48
-lqi:45
-Pkt->:
-RX_FIFO:070102000001CE2E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-50
-lqi:46
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033C12B |44A9|
-RSSI:-44 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-63
-lqi:43
-Pkt->:
-RX_FIFO:070103000065C62A |4DAA|
-RSSI:-40 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-58
-lqi:42
-Pkt->:
-RX_FIFO:070103000097C52A |4BAC|
-RSSI:-41 LQI:2C CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-59
-lqi:42
-Pkt->:
-RX_FIFO:0701030000C9CB2A |4AAA|
-RSSI:-41 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-53
-lqi:42
-Pkt->:
-RX_FIFO:0701030000FBC629 |4AAB|
-RSSI:-41 LQI:2B CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-58
-lqi:41
-Pkt->:
-RX_FIFO:070103000001C42A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-60
-lqi:42
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033C62E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-58
-lqi:46
-Pkt->:
-RX_FIFO:070104000065C72D |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-57
-lqi:45
-Pkt->:
-RX_FIFO:070104000097C62D |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-58
-lqi:45
-Pkt->:
-RX_FIFO:0701040000C9C42E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-60
-lqi:46
-Pkt->:
-RX_FIFO:0701040000FBC62D |42B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-58
-lqi:45
-Pkt->:
-RX_FIFO:070104000001C72D |42B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-57
-lqi:45
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033C92E |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-55
-lqi:46
-Pkt->:
-RX_FIFO:070102000065C92D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-55
-lqi:45
-Pkt->:
-RX_FIFO:070102000097C92C |58AF|
-RSSI:-34 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-55
-lqi:44
-Pkt->:
-RX_FIFO:0701020000C9CC2E |58B1|
-RSSI:-34 LQI:31 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-52
-lqi:46
-Pkt->:
-RX_FIFO:0701020000FBCB2C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-53
-lqi:44
-Pkt->:
-RX_FIFO:070102000001C72C |58B1|
-RSSI:-34 LQI:31 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-57
-lqi:44
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033C42B |4AAA|
-RSSI:-41 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-60
-lqi:43
-Pkt->:
-RX_FIFO:070103000065C22A |4AAA|
-RSSI:-41 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-62
-lqi:42
-Pkt->:
-RX_FIFO:070103000097C62B |4AA7|
-RSSI:-41 LQI:27 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-58
-lqi:43
-Pkt->:
-RX_FIFO:0701030000C9C92B |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-55
-lqi:43
-Pkt->:
-RX_FIFO:0701030000FBCA2A |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-54
-lqi:42
-Pkt->:
-RX_FIFO:070103000001C82B |4AA8|
-RSSI:-41 LQI:28 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-56
-lqi:43
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070104000033C62D |42B2|
-RSSI:-45 LQI:32 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:51
-rssi:-58
-lqi:45
-Pkt->:
-RX_FIFO:070104000065C62D |42B0|
-RSSI:-45 LQI:30 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:101
-rssi:-58
-lqi:45
-Pkt->:
-RX_FIFO:070104000097C52E |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:151
-rssi:-59
-lqi:46
-Pkt->:
-RX_FIFO:0701040000C9C32D |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:201
-rssi:-61
-lqi:45
-Pkt->:
-RX_FIFO:0701040000FBC42C |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:251
-rssi:-60
-lqi:44
-Pkt->:
-RX_FIFO:070104000001C62B |42B1|
-RSSI:-45 LQI:31 CRC:00
-TX_FIFO:05040141636B
-Ack_send!
-Received packet!TX_data: 0Sender:4
-next freq:1
-rssi:-58
-lqi:43
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070102000033D12C |57AF|
-RSSI:-35 LQI:2F CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:51
-rssi:-47
-lqi:44
-Pkt->:
-RX_FIFO:070102000065D12D |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:101
-rssi:-47
-lqi:45
-Pkt->:
-RX_FIFO:070102000097D02E |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:151
-rssi:-48
-lqi:46
-Pkt->:
-RX_FIFO:0701020000C9D02C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:201
-rssi:-48
-lqi:44
-Pkt->:
-RX_FIFO:0701020000FBD02C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:251
-rssi:-48
-lqi:44
-Pkt->:
-RX_FIFO:070102000001CD2C |58B0|
-RSSI:-34 LQI:30 CRC:00
-TX_FIFO:05020141636B
-Ack_send!
-Received packet!TX_data: 0Sender:2
-next freq:1
-rssi:-51
-lqi:44
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-no bytes in RX buffer or RX Overflow!: 0
-Pkt->:
-RX_FIFO:070103000033CA29 |4AA9|
-RSSI:-41 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:51
-rssi:-54
-lqi:41
-Pkt->:
-RX_FIFO:070103000065CD2A |4AAE|
-RSSI:-41 LQI:2E CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:101
-rssi:-51
-lqi:42
-Pkt->:
-RX_FIFO:070103000097D02A |4BAA|
-RSSI:-41 LQI:2A CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:151
-rssi:-48
-lqi:42
-Pkt->:
-RX_FIFO:0701030000C9C92A |48AD|
-RSSI:-42 LQI:2D CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:201
-rssi:-55
-lqi:42
-Pkt->:
-RX_FIFO:0701030000FBC829 |4EA9|
-RSSI:-39 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:251
-rssi:-56
-lqi:41
-Pkt->:
-RX_FIFO:070103000001CE2B |49A9|
-RSSI:-42 LQI:29 CRC:00
-TX_FIFO:05030141636B
-Ack_send!
-Received packet!TX_data: 0Sender:3
-next freq:1
-rssi:-50
-lqi:43
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 69 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:377
+TX_FIFO:050205017933
+ #:00
+TX_FIFO:050205017933
+ #:01
+TX_FIFO:050205017933
+ #:02
+TX_FIFO:050205017933
+Pkt->:
+ACK! RSSI:-54 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050205017965
+ #:00
+TX_FIFO:050205017965
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050205017997
+ #:00
+TX_FIFO:050205017997
+Pkt->:
+ACK! RSSI:-52 LQI:2B CRC:00
+next channel:151
+TX_FIFO:0502050179C9
+ #:00
+TX_FIFO:0502050179C9
+Pkt->:
+ACK! RSSI:-53 LQI:2B CRC:00
+next channel:201
+TX_FIFO:0502050179FB
+ #:00
+TX_FIFO:0502050179FB
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050205017901
+ #:00
+TX_FIFO:050205017901
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+Pkt->:
+ACK! RSSI:-41 LQI:2E CRC:00
+next channel:51
+TX_FIFO:050305017965
+ #:00
+TX_FIFO:050305017965
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017997
+ #:00
+TX_FIFO:050305017997
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:151
+TX_FIFO:0503050179C9
+ #:00
+TX_FIFO:0503050179C9
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0503050179FB
+ #:00
+TX_FIFO:0503050179FB
+Pkt->:
+ACK! RSSI:-39 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050305017901
+ #:00
+TX_FIFO:050305017901
+Pkt->:
+ACK! RSSI:-40 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+ #:01
+TX_FIFO:050405017933
+ #:02
+TX_FIFO:050405017933
+ #:03
+TX_FIFO:050405017933
+ #:04
+TX_FIFO:050405017933
+ #:05
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050405017965
+ #:00
+TX_FIFO:050405017965
+Pkt->:
+ACK! RSSI:-48 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050405017997
+ #:00
+TX_FIFO:050405017997
+Pkt->:
+ACK! RSSI:-47 LQI:2B CRC:00
+next channel:151
+TX_FIFO:0504050179C9
+ #:00
+TX_FIFO:0504050179C9
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:201
+TX_FIFO:0504050179FB
+ #:00
+TX_FIFO:0504050179FB
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050405017901
+ #:00
+TX_FIFO:050405017901
+Pkt->:
+ACK! RSSI:-48 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 69 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-61 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-57 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-55 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-53 LQI:2E CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-51 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-51 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-42 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-42 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-57 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-58 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-70 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-68 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-65 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-73 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-76 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-76 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-66 LQI:2E CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-59 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-42 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2E CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-52 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-49 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-48 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-50 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-52 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-57 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-57 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-54 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-52 LQI:2E CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-52 LQI:2E CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-52 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-52 LQI:29 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-46 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-51 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-68 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-59 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-54 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-54 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-57 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-57 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 53 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:377
+TX_FIFO:050205017933
+ #:00
+TX_FIFO:050205017933
+ #:01
+TX_FIFO:050205017933
+ #:02
+TX_FIFO:050205017933
+ #:03
+TX_FIFO:050205017933
+ #:04
+TX_FIFO:050205017933
+ #:05
+TX_FIFO:050205017933
+ #:00
+TX_FIFO:050205017933
+ #:01
+TX_FIFO:050205017933
+ #:02
+TX_FIFO:050205017933
+ #:03
+TX_FIFO:050205017933
+Pkt->:
+ACK! RSSI:-48 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050205017965
+ #:00
+TX_FIFO:050205017965
+Pkt->:
+ACK! RSSI:-47 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017997
+ #:00
+TX_FIFO:050205017997
+Pkt->:
+ACK! RSSI:-47 LQI:28 CRC:00
+next channel:151
+TX_FIFO:0502050179C9
+ #:00
+TX_FIFO:0502050179C9
+Pkt->:
+ACK! RSSI:-47 LQI:2B CRC:00
+next channel:201
+TX_FIFO:0502050179FB
+ #:00
+TX_FIFO:0502050179FB
+Pkt->:
+ACK! RSSI:-47 LQI:28 CRC:00
+next channel:251
+TX_FIFO:050205017901
+ #:00
+TX_FIFO:050205017901
+Pkt->:
+ACK! RSSI:-47 LQI:28 CRC:00
+next channel:1
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+Pkt->:
+ACK! RSSI:-36 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050305017965
+ #:00
+TX_FIFO:050305017965
+Pkt->:
+ACK! RSSI:-35 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050305017997
+ #:00
+TX_FIFO:050305017997
+Pkt->:
+ACK! RSSI:-35 LQI:2C CRC:00
+next channel:151
+TX_FIFO:0503050179C9
+ #:00
+TX_FIFO:0503050179C9
+Pkt->:
+ACK! RSSI:-34 LQI:2A CRC:00
+next channel:201
+TX_FIFO:0503050179FB
+ #:00
+TX_FIFO:0503050179FB
+Pkt->:
+ACK! RSSI:-35 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050305017901
+ #:00
+TX_FIFO:050305017901
+Pkt->:
+ACK! RSSI:-35 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+ #:01
+TX_FIFO:050405017933
+ #:02
+TX_FIFO:050405017933
+ #:03
+TX_FIFO:050405017933
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017965
+ #:00
+TX_FIFO:050405017965
+Pkt->:
+ACK! RSSI:-39 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017997
+ #:00
+TX_FIFO:050405017997
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:151
+TX_FIFO:0504050179C9
+ #:00
+TX_FIFO:0504050179C9
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0504050179FB
+ #:00
+TX_FIFO:0504050179FB
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017901
+ #:00
+TX_FIFO:050405017901
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-51 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-51 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-50 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-50 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-51 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-50 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-35 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-34 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-34 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-34 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-35 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:377
+TX_FIFO:050205017933
+Pkt->:
+ACK! RSSI:-58 LQI:28 CRC:00
+next channel:51
+TX_FIFO:050205017965
+ #:00
+TX_FIFO:050205017965
+Pkt->:
+ACK! RSSI:-59 LQI:28 CRC:00
+next channel:101
+TX_FIFO:050205017997
+ #:00
+TX_FIFO:050205017997
+Pkt->:
+ACK! RSSI:-64 LQI:2A CRC:00
+next channel:151
+TX_FIFO:0502050179C9
+ #:00
+TX_FIFO:0502050179C9
+Pkt->:
+ACK! RSSI:-65 LQI:29 CRC:00
+next channel:201
+TX_FIFO:0502050179FB
+ #:00
+TX_FIFO:0502050179FB
+Pkt->:
+ACK! RSSI:-66 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017901
+ #:00
+TX_FIFO:050205017901
+Pkt->:
+ACK! RSSI:-61 LQI:29 CRC:00
+next channel:1
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017965
+ #:00
+TX_FIFO:050305017965
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017997
+ #:00
+TX_FIFO:050305017997
+Pkt->:
+ACK! RSSI:-43 LQI:2A CRC:00
+next channel:151
+TX_FIFO:0503050179C9
+ #:00
+TX_FIFO:0503050179C9
+Pkt->:
+ACK! RSSI:-47 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0503050179FB
+ #:00
+TX_FIFO:0503050179FB
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050305017901
+ #:00
+TX_FIFO:050305017901
+Pkt->:
+ACK! RSSI:-42 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+ #:01
+TX_FIFO:050405017933
+ #:02
+TX_FIFO:050405017933
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017965
+ #:00
+TX_FIFO:050405017965
+Pkt->:
+ACK! RSSI:-39 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017997
+ #:00
+TX_FIFO:050405017997
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:151
+TX_FIFO:0504050179C9
+ #:00
+TX_FIFO:0504050179C9
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0504050179FB
+ #:00
+TX_FIFO:0504050179FB
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017901
+ #:00
+TX_FIFO:050405017901
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 4D 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-50 LQI:28 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-50 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-49 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-49 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-48 LQI:29 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-42 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-41 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-40 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-41 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-37 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-37 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-37 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-37 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 4D 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-52 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-52 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-51 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-50 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-50 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-50 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-47 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-46 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-42 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-47 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-46 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-44 LQI:28 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-44 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-44 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-45 LQI:28 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-46 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-42 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-58 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-56 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-55 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-57 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-63 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-60 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-46 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-45 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-47 LQI:2E CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-49 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-48 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-48 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-49 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-49 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-48 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-43 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-46 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-42 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-53 LQI:28 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-52 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-52 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-52 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-50 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-47 LQI:29 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+ #:05
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-40 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-42 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-39 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-66 LQI:28 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-62 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-59 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-58 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-57 LQI:28 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-56 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-55 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-56 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-47 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-60 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-58 LQI:28 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-59 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-86 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-57 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-52 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-42 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-48 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-48 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-47 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-47 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-46 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 53 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-56 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-57 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-62 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-58 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-50 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-47 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-41 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-40 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-40 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-39 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-40 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-43 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-46 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-47 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-50 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-56 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-57 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 49 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-57 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-54 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-51 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-49 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-48 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-49 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-38 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-36 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-37 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-39 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-42 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-42 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-42 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-56 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-53 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-49 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-47 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-46 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-45 LQI:29 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-46 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-48 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-48 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-47 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-48 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-60 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-59 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-56 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-56 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-48 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:377
+TX_FIFO:050205017933
+ #:00
+TX_FIFO:050205017933
+Pkt->:
+ACK! RSSI:-49 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050205017965
+ #:00
+TX_FIFO:050205017965
+Pkt->:
+ACK! RSSI:-50 LQI:2E CRC:00
+next channel:101
+TX_FIFO:050205017997
+ #:00
+TX_FIFO:050205017997
+Pkt->:
+ACK! RSSI:-50 LQI:2E CRC:00
+next channel:151
+TX_FIFO:0502050179C9
+ #:00
+TX_FIFO:0502050179C9
+Pkt->:
+ACK! RSSI:-52 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0502050179FB
+ #:00
+TX_FIFO:0502050179FB
+Pkt->:
+ACK! RSSI:-56 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050205017901
+ #:00
+TX_FIFO:050205017901
+Pkt->:
+ACK! RSSI:-57 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+ #:05
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+ #:05
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+ #:05
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050305017965
+ #:00
+TX_FIFO:050305017965
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017997
+ #:00
+TX_FIFO:050305017997
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:151
+TX_FIFO:0503050179C9
+ #:00
+TX_FIFO:0503050179C9
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:201
+TX_FIFO:0503050179FB
+ #:00
+TX_FIFO:0503050179FB
+Pkt->:
+ACK! RSSI:-47 LQI:2E CRC:00
+next channel:251
+TX_FIFO:050305017901
+ #:00
+TX_FIFO:050305017901
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+ #:01
+TX_FIFO:050405017933
+ #:02
+TX_FIFO:050405017933
+ #:03
+TX_FIFO:050405017933
+ #:04
+TX_FIFO:050405017933
+ #:05
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+Pkt->:
+ACK! RSSI:-38 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017965
+ #:00
+TX_FIFO:050405017965
+Pkt->:
+ACK! RSSI:-38 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017997
+ #:00
+TX_FIFO:050405017997
+Pkt->:
+ACK! RSSI:-38 LQI:2D CRC:00
+next channel:151
+TX_FIFO:0504050179C9
+ #:00
+TX_FIFO:0504050179C9
+Pkt->:
+ACK! RSSI:-38 LQI:2C CRC:00
+next channel:201
+TX_FIFO:0504050179FB
+ #:00
+TX_FIFO:0504050179FB
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017901
+ #:00
+TX_FIFO:050405017901
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 69 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+ #:03
+TX_FIFO:050205017A33
+ #:04
+TX_FIFO:050205017A33
+ #:05
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+ #:02
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-52 LQI:2E CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-53 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-50 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:2E CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-45 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-46 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+ #:05
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-53 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-55 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-59 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-61 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-55 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-51 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-38 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-36 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-35 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:377
+TX_FIFO:050205017933
+Pkt->:
+ACK! RSSI:-42 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017965
+ #:00
+TX_FIFO:050205017965
+Pkt->:
+ACK! RSSI:-41 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050205017997
+ #:00
+TX_FIFO:050205017997
+Pkt->:
+ACK! RSSI:-42 LQI:2A CRC:00
+next channel:151
+TX_FIFO:0502050179C9
+ #:00
+TX_FIFO:0502050179C9
+Pkt->:
+ACK! RSSI:-42 LQI:28 CRC:00
+next channel:201
+TX_FIFO:0502050179FB
+ #:00
+TX_FIFO:0502050179FB
+Pkt->:
+ACK! RSSI:-41 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017901
+ #:00
+TX_FIFO:050205017901
+Pkt->:
+ACK! RSSI:-40 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017933
+ #:00
+TX_FIFO:050305017933
+ #:01
+TX_FIFO:050305017933
+ #:02
+TX_FIFO:050305017933
+ #:03
+TX_FIFO:050305017933
+ #:04
+TX_FIFO:050305017933
+Pkt->:
+ACK! RSSI:-45 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017965
+ #:00
+TX_FIFO:050305017965
+Pkt->:
+ACK! RSSI:-46 LQI:2A CRC:00
+next channel:101
+TX_FIFO:050305017997
+ #:00
+TX_FIFO:050305017997
+Pkt->:
+ACK! RSSI:-52 LQI:2B CRC:00
+next channel:151
+TX_FIFO:0503050179C9
+ #:00
+TX_FIFO:0503050179C9
+Pkt->:
+ACK! RSSI:-73 LQI:2A CRC:00
+next channel:201
+TX_FIFO:0503050179FB
+ #:00
+TX_FIFO:0503050179FB
+Pkt->:
+ACK! RSSI:-64 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050305017901
+ #:00
+TX_FIFO:050305017901
+Pkt->:
+ACK! RSSI:-66 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+ #:01
+TX_FIFO:050405017933
+ #:02
+TX_FIFO:050405017933
+ #:03
+TX_FIFO:050405017933
+ #:04
+TX_FIFO:050405017933
+ #:05
+TX_FIFO:050405017933
+ #:00
+TX_FIFO:050405017933
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017965
+ #:00
+TX_FIFO:050405017965
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017997
+ #:00
+TX_FIFO:050405017997
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:151
+TX_FIFO:0504050179C9
+ #:00
+TX_FIFO:0504050179C9
+Pkt->:
+ACK! RSSI:-44 LQI:2D CRC:00
+next channel:201
+TX_FIFO:0504050179FB
+ #:00
+TX_FIFO:0504050179FB
+Pkt->:
+ACK! RSSI:-44 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017901
+ #:00
+TX_FIFO:050405017901
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 4D 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-48 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-47 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-46 LQI:2A CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-41 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-40 LQI:28 CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-48 LQI:2B CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-44 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-45 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-46 LQI:29 CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-48 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 55 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-49 LQI:29 CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-48 LQI:29 CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-47 LQI:29 CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:29 CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-44 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-47 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-51 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-62 LQI:2B CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-53 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-49 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-44 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+ #:00
+TX_FIFO:050205017A33
+ #:01
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-47 LQI:2A CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-42 LQI:2E CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-39 LQI:2D CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+ #:03
+TX_FIFO:050305017A33
+ #:04
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-40 LQI:2E CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-39 LQI:2B CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-39 LQI:2E CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-41 LQI:2E CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-48 LQI:2B CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+ #:04
+TX_FIFO:050405017A33
+ #:05
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-42 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-41 LQI:2D CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2E CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-39 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-37 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-36 LQI:2C CRC:00
+next channel:1
+
+Init CC1101...
+Partnumber:00
+Version:14
+...done
+Cfg_reg:
+07 2E 80 07 57 43 3E 0E 45 05 
+01 08 00 10 B0 71 F5 83 13 A0 
+F8 15 07 0C 18 16 6C 03 40 91 
+02 26 09 56 07 A9 0A 00 11 65 
+00 59 7F 3F 81 3F 0B 
+PaTable:
+6C 1C 06 3A 51 85 C8 C0 
+CC1101 TX Demo for MSP430
+sensor:378
+TX_FIFO:050205017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2D CRC:00
+next channel:51
+TX_FIFO:050205017A65
+ #:00
+TX_FIFO:050205017A65
+Pkt->:
+ACK! RSSI:-41 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050205017A97
+ #:00
+TX_FIFO:050205017A97
+Pkt->:
+ACK! RSSI:-40 LQI:2D CRC:00
+next channel:151
+TX_FIFO:050205017AC9
+ #:00
+TX_FIFO:050205017AC9
+Pkt->:
+ACK! RSSI:-38 LQI:2A CRC:00
+next channel:201
+TX_FIFO:050205017AFB
+ #:00
+TX_FIFO:050205017AFB
+Pkt->:
+ACK! RSSI:-36 LQI:2B CRC:00
+next channel:251
+TX_FIFO:050205017A01
+ #:00
+TX_FIFO:050205017A01
+Pkt->:
+ACK! RSSI:-36 LQI:2C CRC:00
+next channel:1
+TX_FIFO:050305017A33
+ #:00
+TX_FIFO:050305017A33
+ #:01
+TX_FIFO:050305017A33
+ #:02
+TX_FIFO:050305017A33
+Pkt->:
+ACK! RSSI:-50 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050305017A65
+ #:00
+TX_FIFO:050305017A65
+Pkt->:
+ACK! RSSI:-45 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050305017A97
+ #:00
+TX_FIFO:050305017A97
+Pkt->:
+ACK! RSSI:-44 LQI:2B CRC:00
+next channel:151
+TX_FIFO:050305017AC9
+ #:00
+TX_FIFO:050305017AC9
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050305017AFB
+ #:00
+TX_FIFO:050305017AFB
+Pkt->:
+ACK! RSSI:-43 LQI:2D CRC:00
+next channel:251
+TX_FIFO:050305017A01
+ #:00
+TX_FIFO:050305017A01
+Pkt->:
+ACK! RSSI:-45 LQI:2A CRC:00
+next channel:1
+TX_FIFO:050405017A33
+ #:00
+TX_FIFO:050405017A33
+ #:01
+TX_FIFO:050405017A33
+ #:02
+TX_FIFO:050405017A33
+ #:03
+TX_FIFO:050405017A33
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:51
+TX_FIFO:050405017A65
+ #:00
+TX_FIFO:050405017A65
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:101
+TX_FIFO:050405017A97
+ #:00
+TX_FIFO:050405017A97
+Pkt->:
+ACK! RSSI:-49 LQI:2C CRC:00
+next channel:151
+TX_FIFO:050405017AC9
+ #:00
+TX_FIFO:050405017AC9
+Pkt->:
+ACK! RSSI:-46 LQI:2C CRC:00
+next channel:201
+TX_FIFO:050405017AFB
+ #:00
+TX_FIFO:050405017AFB
+Pkt->:
+ACK! RSSI:-43 LQI:2C CRC:00
+next channel:251
+TX_FIFO:050405017A01
+ #:00
+TX_FIFO:050405017A01
+Pkt->:
+ACK! RSSI:-44 LQI:2C CRC:00
+next channel:1
