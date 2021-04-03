@@ -17,8 +17,8 @@
   > ![consistency_test](./Media/consistency_test.png)
 
 # 3-10 update
-  - [] change the target `0x01` `pos_1` `0x2` `pos_2` `0x3`
-  - [] test the RSSI position sensetivity.
+  - [ ] change the target `0x01` `pos_1` `0x2` `pos_2` `0x3`
+  - [ ] test the RSSI position sensetivity.
 
 # experiment result the `packet_avail` will return ture even if the packet's
 `rx_add` wasn't the transimmiter's `my_addr`. But in the
