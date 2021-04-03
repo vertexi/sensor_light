@@ -34,6 +34,19 @@ uint8_t pos_vector_status;
 void rx_init(uint8_t address);
 void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi);
 
+__inline__ double __attribute__((const)) divide( double y, double x ) {
+                                    // calculates y/x
+    union {
+        double dbl;
+        unsigned long long ull;
+    } u;
+    u.dbl = x;                      // x = x
+    u.ull = ( 0xbfcdd6a18f6a6f52ULL - u.ull ) >> (unsigned char)1;
+                                    // pow( x, -0.5 )
+    u.dbl *= u.dbl;                 // pow( pow(x,-0.5), 2 ) = pow( x, -1 ) = 1.0/x
+    return u.dbl * y;               // (1.0/x) * y = y/x
+}
+
 //---------------------------------[SETUP]-----------------------------------
 void setup()
 {
@@ -70,6 +83,10 @@ void loop()
     if (pos_vector_status == 0x3f)
     {
 
+      for (int i = 0; i < 6; i++)
+      {
+        pos_vector[i] = 0;
+      }
       pos_vector_status = 0x00;
     }
   }
@@ -89,9 +106,46 @@ void loop()
 }
 //--------------------------[end loop]----------------------------
 
+float means[6] = {-51.6904, -49.2619, 7.7699, 8.7001, 10.0467, 7.9498};
+float divider[6] = {6.4862, 7.007, 7.7699, 8.7001, 10.0467, 7.9498};
+float paras[7] = {-0.4427, 1.3809, 0.2777, 0.5639, 0.8723, 0.6008, 0.80337};
+
 uint8_t positioning()
 {
-  
+  //standardlize
+  for (int i = 0; i < 6; i++)
+  {
+    pos_vector[i] -= means[i];
+    pos_vector[i] /= divider[i];
+  }
+
+  //linear transform
+  float linear = 0;
+  for (int i = 0; i < 6; i++)
+  {
+    linear += (pos_vector[i]*paras[i]);
+  }
+  linear += paras[6];
+
+  //logstic
+  double result = 0;
+  divide(1,(1+pow(2.71828, -linear)));
+ 
+  if (result < 0.5)
+  {
+    return 1;
+  }else
+  {
+    return 2;
+  }
+}
+
+void light_control(uint8_t pos)
+{
+  if (pos == 1)
+  {
+
+  }
 }
 
 void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi)
