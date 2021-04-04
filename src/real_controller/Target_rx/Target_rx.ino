@@ -62,6 +62,8 @@ void setup()
   
   pinMode(ledPin1, OUTPUT);   // sets the pin as output 
   pinMode(ledPin2, OUTPUT);   // sets the pin as output 
+  digitalWrite(ledPin1, LOW);        // sets the digital pin 13 off
+  digitalWrite(ledPin2, LOW);        // sets the digital pin 13 off
 
   uint8_t add_ = 0x01;
   rx_init(add_);
@@ -216,7 +218,7 @@ void rx_init(uint8_t address)
 
   RF.set_mode(0x01);                   //set modulation mode 1 = GFSK_1_2_kb; 2 = GFSK_38_4_kb; 3 = GFSK_100_kb; 4 = MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
   RF.set_ISM(0x02);                    //set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
-  RF.set_channel(0x01);                //set channel
+  RF.set_channel(0x50);                //set channel
   RF.set_output_power_level(10);        //set PA level in dbm
   RF.set_myaddr(address);                 //set my own address
   My_addr = address;

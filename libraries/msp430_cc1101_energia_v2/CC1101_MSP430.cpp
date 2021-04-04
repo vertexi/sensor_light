@@ -701,8 +701,10 @@ uint8_t CC1101::send_packet(uint8_t my_addr, uint8_t rx_addr, uint8_t *txbuffer,
                 from_sender = rx_addr;                          //the original message sender address
                 rx_fifo_erase(rxbuffer);                        //erase RX software buffer
                 rx_payload_burst(rxbuffer, pktlen_ack);         //reads package in buffer
-                check_acknowledge(rxbuffer, pktlen_ack, from_sender, my_addr); //check if received message is an acknowledge from client
-                return TRUE;                                    //package successfully send
+                if (check_acknowledge(rxbuffer, pktlen_ack, from_sender, my_addr)) //check if received message is an acknowledge from client
+                {
+                  return TRUE;                                    //package successfully send
+                }
             }
             else{
                 ackWaitCounter++;                               //increment ACK wait counter

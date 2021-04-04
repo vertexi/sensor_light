@@ -25,9 +25,6 @@ CC1101 RF;
 //--------------------------[Sensor input]----------------------------------
 int sensorValue = 0;  // variable to store the value coming from the sensor
 int sensor_threshold = 100;
-// most launchpads have a red LED
-#define LED RED_LED
-#define LED1 P2_3
 uint8_t ack_reties = 10;
 unsigned long prev_fail_time = 0;
 uint16_t fail_channel = 1;
@@ -45,7 +42,7 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  uint8_t add_ = 0x03;
+  uint8_t add_ = 0x04;
   rx_init(add_);
   pin_init();
   
@@ -96,7 +93,7 @@ void loop()
 
     if ((millis() - prev_fail_time) > fail_time)
     {
-      Serial.println("failing!!!");
+      //Serial.println("failing!!!");
       fail_time = 100;
 
       fail_channel == 0x01 ? fail_channel = 0x97 : fail_channel = 0x01;
@@ -105,7 +102,7 @@ void loop()
       RF.receive();                        //set to RECEIVE mode
       delay(20);
 
-      Serial.print("try channel:");Serial.println(fail_channel);
+      //Serial.print("try channel:");Serial.println(fail_channel);
       prev_fail_time = millis();
     }
   }
@@ -114,11 +111,6 @@ void loop()
 
 void pin_init()
 {
-  // initialize the digital pin as an output.
-  pinMode(LED, OUTPUT);
-  digitalWrite(LED, LOW);
-  pinMode(LED1, OUTPUT);
-  digitalWrite(LED1, LOW);
 }
 
 void rx_init(uint8_t address)
@@ -155,7 +147,7 @@ void send_target(uint8_t sensor1, uint8_t sensor2, uint8_t next_channel,
   tx_buffer[5] = next_channel ;
   tx_buffer[6] = rssi_dbm     ; tx_buffer[7] = lqi     ;
 
-  RF.set_channel(0x01);                                      // set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
+  RF.set_channel(0x50);
   RF.receive();                                          // set to RECEIVE mode
 
   bool tx_status = FALSE;
