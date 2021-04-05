@@ -29,7 +29,7 @@ int sensor_threshold = 100;
 // most launchpads have a red LED
 #define LED RED_LED
 #define LED1 P2_3
-int8_t pos_vector[6];
+double pos_vector[6];
 uint8_t pos_vector_status;
 
 uint8_t ledPin1 = 5;    // LED1 connected to digital pin 5
@@ -40,17 +40,25 @@ void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi);
 uint8_t positioning();
 void light_control(uint8_t pos);
 
-__inline__ double __attribute__((const)) divide( double y, double x ) {
-                                    // calculates y/x
-    union {
-        double dbl;
-        unsigned long long ull;
-    } u;
-    u.dbl = x;                      // x = x
-    u.ull = ( 0xbfcdd6a18f6a6f52ULL - u.ull ) >> (unsigned char)1;
-                                    // pow( x, -0.5 )
-    u.dbl *= u.dbl;                 // pow( pow(x,-0.5), 2 ) = pow( x, -1 ) = 1.0/x
-    return u.dbl * y;               // (1.0/x) * y = y/x
+
+double taylor(double x)
+{
+  double result = 1;
+  double xx = x;
+
+  result += x;
+  xx *= x; 
+  result += (xx/2);
+  xx *= x; 
+  result += (xx/6);
+  xx *= x; 
+  result += (xx/24);
+  xx *= x; 
+  result += (xx/120);
+  xx *= x; 
+  result += (xx/720);
+
+  return result;
 }
 
 //---------------------------------[SETUP]-----------------------------------
@@ -83,11 +91,11 @@ void loop()
     sensorValue = (uint16_t)(Rx_fifo[3] << 8) +
                   Rx_fifo[4];
 
-    Serial.print(F("TX_data: ")); Serial.print(sensorValue);
+    //Serial.print(F("TX_data: ")); Serial.print(sensorValue);
     Serial.print("Sender:"); Serial.println(sender);
     Serial.print("next freq:");Serial.println(Rx_fifo[5]);
     Serial.print("rssi:"); Serial.println((int8_t)Rx_fifo[6]);
-    Serial.print("lqi:"); Serial.println(Rx_fifo[7]);
+    //Serial.print("lqi:"); Serial.println(Rx_fifo[7]);
 
     cc1101_packet_available = FALSE;
     fill_pos_vector(sender, Rx_fifo[5], (int8_t)Rx_fifo[6]);
@@ -117,7 +125,7 @@ void loop()
 }
 //--------------------------[end loop]----------------------------
 
-float means[6] = {-51.6904, -49.2619, 7.7699, 8.7001, 10.0467, 7.9498};
+float means[6] = {-51.6905, -49.2619, -47.2381, -51.2143, -48.3333, -46.119};
 float divider[6] = {6.4862, 7.007, 7.7699, 8.7001, 10.0467, 7.9498};
 float paras[7] = {-0.4427, 1.3809, 0.2777, 0.5639, 0.8723, 0.6008, 0.80337};
 
@@ -127,8 +135,10 @@ uint8_t positioning()
   for (int i = 0; i < 6; i++)
   {
     pos_vector[i] -= means[i];
-    pos_vector[i] *= divide(1, divider[i]);
+    pos_vector[i] /= divider[i];
   }
+
+  long print_result = 0;
 
   //linear transform
   float linear = 0;
@@ -137,16 +147,29 @@ uint8_t positioning()
     linear += (pos_vector[i]*paras[i]);
   }
   linear += paras[6];
+  linear = -1*linear;
+
 
   //logstic
   double result = 0;
-  divide(1,(1+powf(2.71828, -linear)));
- 
+  result = (1.0/(1.0+taylor(linear)));
+
+  double temp = 0;
+  temp = taylor(linear);
+  print_result = (long)(linear*1000);
+  Serial.println(print_result);
+  print_result = (long)(temp*1000);
+  Serial.println(print_result);
+  print_result = (long)(result*1000);
+  Serial.println(print_result);
+
   if (result < 0.5)
   {
+    Serial.println("light 1!!");
     return 1;
   }else
   {
+    Serial.println("light 2!!");
     return 2;
   }
 }
@@ -207,6 +230,9 @@ void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi)
       break;
   }
   pos_vector_status |= status;
+
+  //Serial.print("index: ")             ; Serial.println(index)                  ;
+  //Serial.print("pos_vector_status: ") ; Serial.println(pos_vector_status, BIN) ;
 }
 
 void rx_init(uint8_t address)
