@@ -1,0 +1,3 @@
+array([[-0.44268162,  1.38089719,  0.27767763,  0.56391309,  0.87230852,
+         0.60084217]])
+final_freq = pd.concat([freq1.reset_index(), freq4.reset_index()], axis=1)
