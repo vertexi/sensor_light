@@ -1,10 +1,17 @@
 #include <stdio.h>
 
-float taylor(float x)
+double taylor(double x)
 {
-  float result = 1;
-  float xx = x;
+  double result = 1;
+  double xx = x;
 
+  int status = 0;
+  if (x < 0)
+  {
+    x = -x;
+    xx = x;
+    status = 1;
+  }
   result += x;
   xx *= x; 
   result += (xx/2);
@@ -16,15 +23,28 @@ float taylor(float x)
   result += (xx/120);
   xx *= x; 
   result += (xx/720);
+  xx *= x; 
+  result += (xx/5040);
 
-  return result;
+  if (status == 0)
+  {
+    return result;
+  } else {
+    return 1/result;
+  }
 }
 
 
 
 int main()
 {
-  printf("%f", taylor(2.35));
-
+  float temp_input = 0;
+  scanf("%f", &temp_input);
+  printf("%f\n", taylor(temp_input));
+  double temp = 0;
+  temp = taylor(temp_input);
+  int print_result = 0;
+  print_result = (int)(temp*1000);
+  printf("%d", print_result);
   return 0;
 }
