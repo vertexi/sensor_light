@@ -1,0 +1,1723 @@
+freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017B01CE2D |48B2|
+RSSI:-42 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received Pkt->:
+RX_FIFO:070102017A97CB2D |4AB2|
+RSSI:-41 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2D |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CE2A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C72B |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-57
+Pkt->:
+RX_FIFO:070104017A01BD2B |44AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-67
+1668
+5293
+158
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2D |4CB2|
+RSSI:-40 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2D |4BB2|
+RSSI:-41 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CE29 |5EAF|
+RSSI:-31 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A01CC2A |5DB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-52
+Pkt->:
+RX_FIFO:070104017A97C62B |44AF|
+RSSI:-44 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BE2D |44AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-66
+1744
+5708
+149
+light 1!!
+Pkt->:
+RX_FIFO:070102017B97CA2D |4AB2|
+RSSI:-41 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017B01CE2E |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017B97CF29 |5DB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017B01CC2B |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-52
+Pkt->:
+RX_FIFO:070104017B97C62B |48AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017B01BD2A |47AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-67
+1715
+5549
+152
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |4BB0|
+RSSI:-41 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2D |4BB1|
+RSSI:-41 LQI:31 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CF2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017A01CC2A |5DB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-52
+Pkt->:
+RX_FIFO:070104017A97C62B |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BC2D |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1791
+5982
+143
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |47B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2E |48B2|
+RSSI:-42 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CF2A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017A01CD29 |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62B |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BC2C |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1726
+5609
+151
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2D |47B1|
+RSSI:-43 LQI:31 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2D |48B2|
+RSSI:-42 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CF2B |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017A01CC29 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-52
+Pkt->:
+RX_FIFO:070104017A97C62B |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BC2A |47AD|
+RSSI:-43 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1859
+6401
+135
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2D |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2D |48B2|
+RSSI:-42 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CF2B |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62B |47AD|
+RSSI:-43 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BB2A |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-69
+1870
+6469
+133
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2D |48B1|
+RSSI:-42 LQI:31 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2E |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CE2A |5DB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A01CD2A |5DAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62D |45AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B02C |45AF|
+RSSI:-44 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-80
+2737
+15107
+62
+light 1!!
+Pkt->:
+RX_FIFO:070102017997CB2D |4AB2|
+RSSI:-41 LQI:32 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017901CE2D |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017997D02A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017901CE2A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017997C62C |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017901BC2A |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1694
+5432
+155
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |48B0|
+RSSI:-42 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2E |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D029 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62D |48AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B92A |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+2114
+8235
+108
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2E |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |48B1|
+RSSI:-42 LQI:31 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62B |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BA2B |49AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+2038
+7644
+115
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2E |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2C |47AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D029 |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62B |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01BA2B |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+1841
+6290
+137
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B72D |48AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-73
+2265
+9554
+94
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2D |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D029 |5CAE|
+RSSI:-32 LQI:2E CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE29 |5BAF|
+RSSI:-33 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C52B |4AAD|
+RSSI:-41 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BC2C |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1712
+5533
+153
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |46B1|
+RSSI:-43 LQI:31 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE2A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C42C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-60
+Pkt->:
+RX_FIFO:070104017A01BC2C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1996
+7331
+120
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2C |44B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CD2C |44AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D029 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62A |48AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B92C |48AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+2182
+8807
+101
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2E |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |45AF|
+RSSI:-44 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97CF2A |5CAE|
+RSSI:-32 LQI:2E CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C52B |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01B82C |49AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-72
+2312
+10004
+90
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D029 |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD2A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62D |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B92C |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+2114
+8235
+108
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE2A |5BB1|
+RSSI:-33 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C32C |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-61
+Pkt->:
+RX_FIFO:070104017A01BC2B |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+2083
+7987
+111
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CB2C |44B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-53
+Pkt->:
+RX_FIFO:070102017A01CE2D |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C52A |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BA2A |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+1996
+7333
+119
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |47B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2E |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D029 |5BB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5BB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C52C |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BA2C |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+1928
+6855
+127
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |45B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5BAF|
+RSSI:-33 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE29 |5BAF|
+RSSI:-33 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C52B |48AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BA2D |4AAE|
+RSSI:-41 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+2060
+7811
+113
+light 1!!
+Pkt->:
+RX_FIFO:070102017997CA2D |45B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017901CD2D |45AF|
+RSSI:-44 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017997D029 |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017901CE2A |5CB2|
+RSSI:-32 LQI:32 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017997C52D |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017901B82C |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-72
+2212
+9065
+99
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |45B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2C |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D029 |5BB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C52C |49AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01B82A |48AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-72
+2212
+9065
+99
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |45AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2D |45AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5BB1|
+RSSI:-33 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C52C |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BC2D |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1974
+7173
+122
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2C |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D029 |5AAF|
+RSSI:-33 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5AB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C52C |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01BC2A |48AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-68
+1777
+5901
+144
+light 1!!
+Pkt->:
+RX_FIFO:070102017997CA2C |45AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017901CE2C |44B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017997CF2A |5BB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-49
+Pkt->:
+RX_FIFO:070103017901CD29 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017997C52A |49AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017901B72A |48AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-73
+2191
+8880
+101
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |47AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2C |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D029 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CD29 |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070104017A97C62B |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B92C |49AE|
+RSSI:-42 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+2114
+8235
+108
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |46AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2C |46B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB0|
+RSSI:-32 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C52B |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01B92C |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+2136
+8415
+106
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2C |47AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2C |47B0|
+RSSI:-43 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97D02A |5CB1|
+RSSI:-32 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CE29 |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C52C |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-59
+Pkt->:
+RX_FIFO:070104017A01B92B |49AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+1939
+6928
+126
+light 1!!
+Pkt->:
+RX_FIFO:070102017997CA2C |47AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017901CE2E |46AE|
+RSSI:-43 LQI:2E CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017997D02B |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017901CE2A |5CAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017997C62B |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017901B92B |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-71
+1852
+6357
+135
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2D |47AF|
+RSSI:-43 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CD2C |44B0|
+RSSI:-44 LQI:30 CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-51
+Pkt->:
+RX_FIFO:070103017A97D02A |5EB1|
+RSSI:-31 LQI:31 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-48
+Pkt->:
+RX_FIFO:070103017A01CF29 |5DAF|
+RSSI:-32 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-49
+Pkt->:
+RX_FIFO:070104017A97C72A |48AD|
+RSSI:-42 LQI:2D CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-57
+Pkt->:
+RX_FIFO:070104017A01BA2B |49AF|
+RSSI:-42 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-70
+1822
+6170
+139
+light 1!!
+Pkt->:
+RX_FIFO:070102017A97CA2E |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:151
+rssi:-54
+Pkt->:
+RX_FIFO:070102017A01CE2C |4AAF|
+RSSI:-41 LQI:2F CRC:00
+TX_FIFO:05020141636B
+Ack_send!
+Received packet!Sender:2
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A97CE2A |5BB0|
+RSSI:-33 LQI:30 CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:151
+rssi:-50
+Pkt->:
+RX_FIFO:070103017A01CE2A |5BAF|
+RSSI:-33 LQI:2F CRC:00
+TX_FIFO:05030141636B
+Ack_send!
+Received packet!Sender:3
+next freq:1
+rssi:-50
+Pkt->:
+RX_FIFO:070104017A97C62A |44AF|
+RSSI:-44 LQI:2F CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:151
+rssi:-58
+Pkt->:
+RX_FIFO:070104017A01B52D |44AE|
+RSSI:-44 LQI:2E CRC:00
+TX_FIFO:05040141636B
+Ack_send!
+Received packet!Sender:4
+next freq:1
+rssi:-75
+2226
+9193
+98
+light 1!!
