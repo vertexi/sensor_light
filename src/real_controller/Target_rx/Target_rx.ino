@@ -48,6 +48,13 @@ double taylor(double x)
   double result = 1;
   double xx = x;
 
+  int status = 0;
+  if (x < 0)
+  {
+    x = -x;
+    xx = x;
+    status = 1;
+  }
   result += x;
   xx *= x; 
   result += (xx/2);
@@ -59,9 +66,17 @@ double taylor(double x)
   result += (xx/120);
   xx *= x; 
   result += (xx/720);
+  xx *= x; 
+  result += (xx/5040);
 
-  return result;
+  if (status == 0)
+  {
+    return result;
+  } else {
+    return 1/result;
+  }
 }
+
 
 //---------------------------------[SETUP]-----------------------------------
 void setup()
