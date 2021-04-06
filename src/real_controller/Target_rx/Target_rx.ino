@@ -34,6 +34,8 @@ uint8_t pos_vector_status;
 
 uint8_t ledPin1 = 5;    // LED1 connected to digital pin 5
 uint8_t ledPin2 = 6;    // LED1 connected to digital pin 6
+//uint8_t switch1 = 5;    // switch1 connected to digital pin 5
+//uint8_t switch2 = 6;    // switch2 connected to digital pin 6
 
 void rx_init(uint8_t address);
 void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi);
@@ -186,6 +188,23 @@ void light_control(uint8_t pos)
     digitalWrite(ledPin2, HIGH);        // sets the digital pin 13 off
   }
 }
+
+//void switch(uint8_t pos)
+//{
+//  analogWrite(switch1, 19);         // 16 one-side 19 neutral 23 another-side
+//  analogWrite(switch2, 19);         // 16 one-side 19 neutral 23 another-side
+//  delay(300);
+//
+//  if (pos == 1)
+//  {
+//    analogWrite(switch1, 16);         // 16 one-side 19 neutral 23 another-side
+//  } else
+//  {
+//    analogWrite(switch2, 16);         // 16 one-side 19 neutral 23 another-side
+//  }
+//  delay(300);
+//}
+
 
 void fill_pos_vector(uint8_t sender, uint8_t channel, int8_t rssi)
 {
