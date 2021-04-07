@@ -27,8 +27,12 @@ int ack_reties = 5;  // the maximun times to try resend packet if don't recive t
 int posValue = 0;    // the test position potentiometer
 int posPin = A0;     // the potentiometer input pin
 
+uint8_t channels[3] = {0x97, 0xf0, 0x01};
+#define total_channel 3
+
 void tx_init();
 void send_data(uint8_t Pktlen, uint8_t Rx_addr, uint8_t channel, int sensorValue);
+void multi_channel_send(uint8_t Pktlen, uint8_t Rx_addr, int sensorValue);
 
 //---------------------------------[SETUP]-----------------------------------
 void setup()
@@ -89,6 +93,14 @@ void loop()
 */
 }
 //--------------------------[end loop]----------------------------
+
+void multi_channel_send(uint8_t Pktlen, uint8_t Rx_addr, int sensorValue)
+{
+  for (int i = 0; i < total_channel; i++)
+  {
+    send_data(Pktlen, Rx_addr, channels[i], sensorValue);
+  }
+}
 
 void send_data(uint8_t Pktlen, uint8_t Rx_addr, uint8_t channel, int sensorValue)
 {

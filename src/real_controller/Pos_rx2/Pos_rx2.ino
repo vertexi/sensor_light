@@ -27,13 +27,20 @@ int sensorValue = 0;  // variable to store the value coming from the sensor
 int sensor_threshold = 100;
 uint8_t ack_reties = 10;
 unsigned long prev_fail_time = 0;
-uint16_t fail_channel = 1;
+uint8_t fail_channel = 0;
 int fail_time = 5000;
+
+uint8_t channels[3] = {0x97, 0xf0, 0x01};
+#define total_channel 3
 
 void rx_init(uint8_t address);
 void pin_init();
 void send_target(int sensorValue, uint8_t current_freq, int8_t rssi_dbm, 
     uint8_t lqi, uint8_t Rx_addr);
+void fail_tackle();
+void packet_detector();
+void get_data();
+void send_to_target();
 
 //---------------------------------[SETUP]-----------------------------------
 void setup()
@@ -53,6 +60,48 @@ void setup()
 
 void loop()
 {
+  packet_detector();
+
+  //if valid package is received
+  if (cc1101_packet_available == TRUE)
+  {
+    get_data(); //storage the sensor data and clear the fail_time
+    send_to_target(); //send data to target throught 0x50 channel and back to
+    // next channel prepare to communicate with the sensor
+  } else
+  {
+    fail_tackle();//when long time don't get the message channel other channel
+  }
+}
+//--------------------------[end loop]----------------------------
+
+void get_data()
+{
+  sensorValue = (uint16_t)(Rx_fifo[3] << 8) +
+    Rx_fifo[4];
+
+  Serial.print("next channel:") ; Serial.println(Rx_fifo[5]) ;
+  Serial.print(F("TX_data: "))  ; Serial.print(sensorValue)  ;
+  Serial.print("Sender:")       ; Serial.println(sender)     ;
+  Serial.print("rssi:")         ; Serial.println(rssi_dbm)   ;
+  Serial.print("lqi:")          ; Serial.println(lqi)        ;
+
+  cc1101_packet_available = FALSE;
+  prev_fail_time = millis();
+  fail_time = 5000;
+}
+
+void send_to_target()
+{
+  uint8_t rx_add_t = 0x01;
+  send_target(Rx_fifo[3], Rx_fifo[4], Rx_fifo[5], rssi_dbm, lqi, rx_add_t);
+
+  RF.set_channel(Rx_fifo[5]);
+  RF.receive();                        //set to RECEIVE mode
+}
+
+void packet_detector()
+{
   if (RF.packet_available() == TRUE)
   {
     if (RF.get_payload(Rx_fifo, pktlen, rx_addr, sender, rssi_dbm, lqi) == TRUE) //stores the payload data to Rx_fifo
@@ -65,49 +114,29 @@ void loop()
       cc1101_packet_available = FALSE;                               //set flag that an package is corrupted
     }
   }
+}
 
-  //if valid package is received
-  if (cc1101_packet_available == TRUE)
+
+void fail_tackle()
+{
+  if ((millis() - prev_fail_time) > fail_time)
   {
-    sensorValue = (uint16_t)(Rx_fifo[3] << 8) +
-      Rx_fifo[4];
+    //Serial.println("failing!!!");
+    fail_time = 100;
+    fail_channel++;
 
-    uint8_t rx_add_t = 0x01;
-    send_target(Rx_fifo[3], Rx_fifo[4], Rx_fifo[5], rssi_dbm, lqi, rx_add_t);
-
-    RF.set_channel(Rx_fifo[5]);
-    RF.receive();                        //set to RECEIVE mode
-    Serial.print("next channel:");Serial.println(Rx_fifo[5]);
-
-    Serial.print(F("TX_data: ")); Serial.print(sensorValue);
-    Serial.print("Sender:"); Serial.println(sender);
-    Serial.print("rssi:"); Serial.println(rssi_dbm);
-    Serial.print("lqi:"); Serial.println(lqi);
-
-    cc1101_packet_available = FALSE;
-
-    prev_fail_time = millis();
-    fail_time = 5000;
-  } else
-  {
-
-    if ((millis() - prev_fail_time) > fail_time)
+    if (!(fail_channel < total_channel))
     {
-      //Serial.println("failing!!!");
-      fail_time = 100;
-
-      fail_channel == 0x01 ? fail_channel = 0x97 : fail_channel = 0x01;
-      
-      RF.set_channel(fail_channel);
-      RF.receive();                        //set to RECEIVE mode
-      delay(20);
-
-      //Serial.print("try channel:");Serial.println(fail_channel);
-      prev_fail_time = millis();
+      fail_channel = 0;
     }
+    RF.set_channel(channels[fail_channel]);
+    RF.receive();                        //set to RECEIVE mode
+    delay(20);
+
+    //Serial.print("try channel:");Serial.println(fail_channel);
+    prev_fail_time = millis();
   }
 }
-//--------------------------[end loop]----------------------------
 
 void pin_init()
 {
