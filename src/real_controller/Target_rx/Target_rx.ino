@@ -142,9 +142,9 @@ void loop()
 }
 //--------------------------[end loop]----------------------------
 
-float means[6] = {-51.6905, -49.2619, -47.2381, -51.2143, -48.3333, -46.119};
-float divider[6] = {6.4862, 7.007, 7.7699, 8.7001, 10.0467, 7.9498};
-float paras[7] = {-0.4427, 1.3809, 0.2777, 0.5639, 0.8723, 0.6008, 0.80337};
+float means[6] = {-49.1270, -45.8254, -45.7778, -42.6349, -51.3810, -49.0635};
+float divider[6] = {7.1370, 6.5406, 5.9932, 4.7952, 6.5184, 6.9233};
+float paras[7] = {0.6792, -0.0525, 0.4752, 0.5951, 0.6672, 0.5104, -0.0247};
 
 uint8_t positioning()
 {
@@ -279,7 +279,7 @@ void rx_init(uint8_t address)
   RF.set_mode(0x01);                   //set modulation mode 1 = GFSK_1_2_kb; 2 = GFSK_38_4_kb; 3 = GFSK_100_kb; 4 = MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
   RF.set_ISM(0x02);                    //set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
   RF.set_channel(0x50);                //set channel
-  RF.set_output_power_level(10);        //set PA level in dbm
+  RF.set_output_power_level(5);        //set PA level in dbm
   RF.set_myaddr(address);                 //set my own address
   My_addr = address;
 

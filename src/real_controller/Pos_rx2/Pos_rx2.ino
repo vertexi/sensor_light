@@ -125,7 +125,7 @@ void rx_init(uint8_t address)
                                  // MSK_250_kb; 5 = MSK_500_kb; 6 = OOK_4_8_kb
   RF.set_ISM(0x02);              // set ISM Band 1=315MHz; 2=433MHz; 3=868MHz; 4=915MHz
   RF.set_channel(0x01);          // set channel
-  RF.set_output_power_level(10); // set PA level in dbm
+  RF.set_output_power_level(5); // set PA level in dbm
   RF.set_myaddr(address);        // set my own address
   My_addr = address;
 
