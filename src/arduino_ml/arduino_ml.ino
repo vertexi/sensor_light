@@ -1,6 +1,18 @@
 #include"yasML.h"
 #include<stdio.h>
 
+
+struct parameter
+{
+  Matrix *sample;
+  Matrix *theta1;
+  Matrix *theta2;
+  Matrix *a1;
+  Matrix *a2;
+  Matrix *Y;
+  double lambda;
+} my_para;
+  
 void setup()
 {
   Serial.begin(9600);
@@ -12,7 +24,57 @@ void loop()
 
 }
 
-float temp_forward1[];
+void test_init(struct parameter temp)
+{
+  int m = 200, n = 6, h = 20, o = 3;
+  temp.sample = constructor(m, n);
+  temp.theta1 = constructor(n, h);
+  temp.theta2 = constructor(h, o);
+  temp.a1     = constructor(m, h);
+  temp.a2     = constructor(m, o);
+  temp.Y      = constructor(m, o);
+
+  for (int i = 0; i < m; i++)
+  {
+    for (int j = 0; j < n; j++)
+    {
+      temp.sample[i][j] = ((double)random(1000))/((double)10000.0);
+    }
+  }
+
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < h; j++)
+    {
+      temp.theta1[i][j] = ((double)random(1000))/((double)10000.0);
+    }
+  }
+
+  for (int i = 0; i < h; i++)
+  {
+    for (int j = 0; j < o; j++)
+    {
+      temp.theta2[i][j] = ((double)random(1000))/((double)10000.0);
+    }
+  }
+
+  for (int i = 0; i < m; i++)
+  {
+    for (int j = 0; j < h; j++)
+    {
+      temp.a1[i][j] = ((double)random(1000))/((double)10000.0);
+    }
+  }
+
+  for (int i = 0; i < m; i++)
+  {
+    for (int j = 0; j < o; j++)
+    {
+      temp.a2[i][j] = ((double)random(1000))/((double)10000.0);
+      temp.Y[i][j] = random(100) > 50 ? 1 : 0;
+    }
+  }
+}
 
 Matrix *sigmoid_matrix(Matrix *variable)
 {
@@ -47,6 +109,9 @@ Matrix *a2)
 
   Matrix *x2 = multiply(a1, theta2);
   a2 = sigmoid_matrix(x2);
+
+  destroy_matrix(x1);
+  destroy_matrix(x2);
 }
 
 double cost_func(Matrix *a2, Matrix *Y, Matrix *theta1, Matrix *theta2, double lambda)
@@ -82,7 +147,7 @@ double cost_func(Matrix *a2, Matrix *Y, Matrix *theta1, Matrix *theta2, double l
   row_num = theta1.rows;
   col_num = theta1.columns;
 
-  for(int i = 0; i < row_num; i++)
+  for(int i = 1; i < row_num; i++)
   {
     for(int j = 0; j < col_num; j++)
     {
@@ -93,7 +158,7 @@ double cost_func(Matrix *a2, Matrix *Y, Matrix *theta1, Matrix *theta2, double l
   row_num = theta2.rows;
   col_num = theta2.columns;
 
-  for(int i = 0; i < row_num; i++)
+  for(int i = 1; i < row_num; i++)
   {
     for(int j = 0; j < col_num; j++)
     {
@@ -104,10 +169,11 @@ double cost_func(Matrix *a2, Matrix *Y, Matrix *theta1, Matrix *theta2, double l
   double final_cost = 0;
   final_cost = 1/(double)(Y.rows)*cost_res + 1/(double)(2*Y.rows)*standardlization;
 
+  destroy_matrix(ln);
   return final_cost;
 }
 
-void backward(Matrix *a2, Matrix *a1,Matrix *theta1, Matrix *theta2, Matrix *Y,
+Matrix **backward(Matrix *a2, Matrix *a1,Matrix *theta1, Matrix *theta2, Matrix *Y,
 Matrix *sample, double lambda)
 {
   float m = 0;
@@ -161,10 +227,24 @@ Matrix *sample, double lambda)
   }
   add(part_theta1, theta1_clone);
 
+  destroy_matrix(a1_t);
+  destroy_matrix(a2_temp);
+  destroy_matrix(theta2_t);
+  destroy_matrix(part_a1);
+  destroy_matrix(part_a1_x1);
+  destroy_matrix(X_t);
+  destroy_matrix(theta2_clone);
+  destroy_matrix(theta1_clone);
 
+  Matrix **gradient_res = malloc(sizeof(Matrix *)*2);
+  gradient_res[0] = part_theta1;
+  gradient_res[1] = part_theta2;
+
+  return gradient_res;
 }
 
 void gradient_check()
 {
+
 
 }
