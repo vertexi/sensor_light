@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AC_KSEQ_H	.\kann_extra\kseq.h	29;"	d
+Activation	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+Activation	.\examples\keras\rnn-bit.py	/^from keras.layers import Dense, Activation, GRU, TimeDistributed$/;"	i
+Back Propagations	.\doc\11math.tex	/^\\section{Back Propagations}$/;"	s
+Convolution2D	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+Dense	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+Dense	.\examples\keras\rnn-bit.py	/^from keras.layers import Dense, Activation, GRU, TimeDistributed$/;"	i
+Dropout	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+Flatten	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+GRU	.\examples\keras\rnn-bit.py	/^from keras.layers import Dense, Activation, GRU, TimeDistributed$/;"	i
+KAD_ALLOC	.\kautodiff.h	230;"	d
+KAD_BACKWARD	.\kautodiff.h	232;"	d
+KAD_CONST	.\kautodiff.h	50;"	d
+KAD_FORWARD	.\kautodiff.h	231;"	d
+KAD_FUNC_OP1	.\kautodiff.c	112;"	d	file:
+KAD_FUNC_OP2	.\kautodiff.c	100;"	d	file:
+KAD_MAX_DIM	.\kautodiff.h	40;"	d
+KAD_MAX_OP	.\kautodiff.h	41;"	d
+KAD_PAD_NONE	.\kautodiff.h	162;"	d
+KAD_PAD_SAME	.\kautodiff.h	163;"	d
+KAD_POOL	.\kautodiff.h	51;"	d
+KAD_SHARE_RNG	.\kautodiff.h	52;"	d
+KAD_SYNC_DIM	.\kautodiff.h	233;"	d
+KAD_VAR	.\kautodiff.h	49;"	d
+KAD_VERSION	.\kautodiff.h	31;"	d
+KANN_AUTODIFF_H	.\kautodiff.h	29;"	d
+KANN_C_CEB	.\kann.h	38;"	d
+KANN_C_CEB_NEG	.\kann.h	40;"	d
+KANN_C_CEM	.\kann.h	39;"	d
+KANN_C_MSE	.\kann.h	41;"	d
+KANN_DATA_H	.\kann_extra\kann_data.h	2;"	d
+KANN_F_COST	.\kann.h	36;"	d
+KANN_F_IN	.\kann.h	33;"	d
+KANN_F_OUT	.\kann.h	34;"	d
+KANN_F_TRUTH	.\kann.h	35;"	d
+KANN_H	.\kann.h	29;"	d
+KANN_MAGIC	.\kann.c	472;"	d	file:
+KANN_RNN_NORM	.\kann.h	44;"	d
+KANN_RNN_VAR_H0	.\kann.h	43;"	d
+KANN_VERSION	.\kann.h	31;"	d
+KSEQ_DECLARE	.\kann_extra\kseq.h	249;"	d
+KSEQ_INIT	.\kann_extra\kseq.h	247;"	d
+KSEQ_INIT2	.\kann_extra\kseq.h	241;"	d
+KSTREAM_DECLARE	.\kann_extra\kseq.h	159;"	d
+KSTREAM_INIT	.\kann_extra\kseq.h	157;"	d
+KSTREAM_INIT2	.\kann_extra\kseq.h	151;"	d
+KSTRING_T	.\kann_extra\kseq.h	90;"	d
+KS_SEP_LINE	.\kann_extra\kseq.h	45;"	d
+KS_SEP_MAX	.\kann_extra\kseq.h	46;"	d
+KS_SEP_SPACE	.\kann_extra\kseq.h	43;"	d
+KS_SEP_TAB	.\kann_extra\kseq.h	44;"	d
+Layer normalization	.\doc\11math.tex	/^\\subsection{Layer normalization}$/;"	b
+MAX_FIELDS	.\examples\rnn-bit.c	14;"	d	file:
+Matrix product	.\doc\11math.tex	/^\\subsection{Matrix product}$/;"	b
+MaxPooling2D	.\examples\keras\mlp.py	/^from keras.layers import Dense, Activation, Dropout, Convolution2D, MaxPooling2D, Flatten$/;"	i
+RMSprop	.\examples\keras\mlp.py	/^from keras.optimizers import RMSprop$/;"	i
+RMSprop	.\examples\keras\rnn-bit.py	/^from keras.optimizers import RMSprop$/;"	i
+Sequential	.\examples\keras\mlp.py	/^from keras.models import Sequential, load_model$/;"	i
+Sequential	.\examples\keras\rnn-bit.py	/^from keras.models import Sequential, load_model$/;"	i
+TimeDistributed	.\examples\keras\rnn-bit.py	/^from keras.layers import Dense, Activation, GRU, TimeDistributed$/;"	i
+VERSION	.\examples\textgen.c	10;"	d	file:
+__KSEQ_BASIC	.\kann_extra\kseq.h	172;"	d
+__KSEQ_READ	.\kann_extra\kseq.h	192;"	d
+__KSEQ_TYPE	.\kann_extra\kseq.h	234;"	d
+__KS_BASIC	.\kann_extra\kseq.h	59;"	d
+__KS_GETUNTIL	.\kann_extra\kseq.h	101;"	d
+__KS_INLINED	.\kann_extra\kseq.h	74;"	d
+__KS_TYPE	.\kann_extra\kseq.h	48;"	d
+__kstring_t	.\kann_extra\kseq.h	/^typedef struct __kstring_t {$/;"	s
+_process_fp	.\examples\keras\mlp.py	/^	def _process_fp(fp):$/;"	f	function:mlp_data_read
+_process_fp	.\examples\tensorflow\mlp.py	/^	def _process_fp(fp):$/;"	f	function:mlp_data_read
+a	.\kann.c	/^	kann_t *a;$/;"	m	struct:__anon3	file:
+action	.\kann.c	/^	int action;$/;"	m	struct:__anon3	file:
+bit_data_t	.\examples\rnn-bit.c	/^} bit_data_t;$/;"	t	typeref:struct:__anon1	file:
+c	.\kann.h	/^	float *x, *g, *c; \/* collated variable values, gradients and constant values *\/$/;"	m	struct:__anon4
+c2i	.\examples\textgen.c	/^	int c2i[256];$/;"	m	struct:__anon2	file:
+cal_grad	.\kann.c	/^	int cal_grad, cost_label, eval_out;$/;"	m	struct:mtaux_t	file:
+child	.\kautodiff.h	/^	struct kad_node_t **child;  \/* operands\/child nodes *\/$/;"	m	struct:kad_node_t	typeref:struct:kad_node_t::kad_node_t
+chk_flg	.\kann.c	150;"	d	file:
+chk_lbl	.\kann.c	151;"	d	file:
+cmul_norm2	.\kann.c	/^static inline kad_node_t *cmul_norm2(int *offset, kad_node_t **par, kad_node_t *x, kad_node_t *w, int use_norm)$/;"	f	file:
+cname	.\kann_extra\kann_data.h	/^	char **rname, **cname;$/;"	m	struct:kann_data_t
+const_scalar	.\examples\vae.c	9;"	d	file:
+conv1d_add_2to1	.\kautodiff.c	/^static void conv1d_add_2to1(int d[3], const float *y, float *x)$/;"	f	file:
+conv1d_gen_aux	.\kautodiff.c	/^static inline conv_conf_t *conv1d_gen_aux(int in_col, int kernel_c, int stride_c, int left_pad)$/;"	f	file:
+conv1d_loop1	.\kautodiff.c	2103;"	d	file:
+conv1d_loop2	.\kautodiff.c	2119;"	d	file:
+conv1d_move_1to2	.\kautodiff.c	/^static void conv1d_move_1to2(int d[3], const float *x, float *y)$/;"	f	file:
+conv2d_add_3to1	.\kautodiff.c	/^static void conv2d_add_3to1(int d[4], const float *y, float *x) \/* convert the NHWC shape back to NCHW and add to another NCHW-shaped array *\/$/;"	f	file:
+conv2d_gen_aux	.\kautodiff.c	/^static inline conv_conf_t *conv2d_gen_aux(int in_row, int in_col, int kernel_r, int kernel_c, int stride_r, int stride_c, int top_pad, int left_pad)$/;"	f	file:
+conv2d_loop1	.\kautodiff.c	1942;"	d	file:
+conv2d_loop2	.\kautodiff.c	1961;"	d	file:
+conv2d_move_1to3	.\kautodiff.c	/^static void conv2d_move_1to3(int d[4], const float *x, float *y) \/* convert the NCHW shape to the NHWC shape *\/$/;"	f	file:
+conv_conf_t	.\kautodiff.c	/^} conv_conf_t;$/;"	t	typeref:struct:__anon6	file:
+conv_find_par	.\kautodiff.c	/^static inline int conv_find_par(int in_size, int kernel_size, int stride, int pad0, int *new_pad0, int *new_pad1)$/;"	f	file:
+conv_out_size	.\kautodiff.c	1899;"	d	file:
+conv_rot180	.\kautodiff.c	/^static void conv_rot180(int d0, int d1, float *x) \/* rotate\/reverse a weight martix *\/$/;"	f	file:
+cost	.\kann.c	/^	float cost;$/;"	m	struct:__anon3	file:
+cost_label	.\kann.c	/^	int cal_grad, cost_label, eval_out;$/;"	m	struct:mtaux_t	file:
+cv	.\kann.c	/^	pthread_cond_t cv;$/;"	m	struct:mtaux_t	file:
+d	.\kautodiff.h	/^	int32_t     d[KAD_MAX_DIM]; \/* dimensions *\/$/;"	m	struct:kad_node_t
+data	.\examples\textgen.c	/^	uint8_t *data, **para;$/;"	m	struct:__anon2	file:
+eval_out	.\kann.c	/^	int cal_grad, cost_label, eval_out;$/;"	m	struct:mtaux_t	file:
+ext_flag	.\kautodiff.h	/^	uint32_t    ext_flag;       \/* flags for external uses (not modified by the kad_* APIs) *\/$/;"	m	struct:kad_node_t
+ext_label	.\kautodiff.h	/^	int32_t     ext_label;      \/* labels for external uses (not modified by the kad_* APIs) *\/$/;"	m	struct:kad_node_t
+flag	.\kautodiff.h	/^	uint8_t     flag;           \/* type of the node; see KAD_F_* for valid flags *\/$/;"	m	struct:kad_node_t
+g	.\kann.c	/^	struct mtaux_t *g;$/;"	m	struct:__anon3	typeref:struct:__anon3::mtaux_t	file:
+g	.\kann.h	/^	float *x, *g, *c; \/* collated variable values, gradients and constant values *\/$/;"	m	struct:__anon4
+g	.\kautodiff.h	/^	float      *g;              \/* gradient; allocated for internal nodes *\/$/;"	m	struct:kad_node_t
+getopt	.\examples\keras\mlp.py	/^import sys, getopt, re, gzip, time$/;"	i
+getopt	.\examples\keras\rnn-bit.py	/^import sys, getopt, time$/;"	i
+getopt	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+grp	.\kann_extra\kann_data.h	/^	int *grp;$/;"	m	struct:kann_data_t
+gtmp	.\kautodiff.h	/^	void       *gtmp;           \/* temporary data generated at the forward pass but used at the backward pass *\/$/;"	m	struct:kad_node_t
+gzip	.\examples\keras\mlp.py	/^import sys, getopt, re, gzip, time$/;"	i
+gzip	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+inline	.\kautodiff.h	37;"	d
+kad_add_delta	.\kautodiff.c	/^static void kad_add_delta(int n, kad_node_t **a, float c, float *delta)$/;"	f	file:
+kad_allocate_internal	.\kautodiff.c	/^static void kad_allocate_internal(int n, kad_node_t **v)$/;"	f	file:
+kad_avg	.\kautodiff.c	/^kad_node_t *kad_avg(int n, kad_node_t **x)   { return kad_pooling_general(10, n, x); }$/;"	f
+kad_avg1d	.\kautodiff.c	/^kad_node_t *kad_avg1d(kad_node_t *x, int kernel_size, int stride, int left_pad)$/;"	f
+kad_ce_multi_weighted	.\kautodiff.c	/^kad_node_t *kad_ce_multi_weighted(kad_node_t *pred, kad_node_t *truth, kad_node_t *weight)$/;"	f
+kad_check_grad	.\kautodiff.c	/^void kad_check_grad(int n, kad_node_t **a, int from)$/;"	f
+kad_clone	.\kautodiff.c	/^kad_node_t **kad_clone(int n, kad_node_t **v, int batch_size)$/;"	f
+kad_compile	.\kautodiff.c	/^kad_node_t **kad_compile(int *n_node, int n_roots, ...)$/;"	f
+kad_compile_array	.\kautodiff.c	/^kad_node_t **kad_compile_array(int *n_node, int n_roots, kad_node_t **roots)$/;"	f
+kad_concat	.\kautodiff.c	/^kad_node_t *kad_concat(int axis, int n, ...)$/;"	f
+kad_concat_array	.\kautodiff.c	/^kad_node_t *kad_concat_array(int axis, int n, kad_node_t **p)$/;"	f
+kad_const	.\kautodiff.c	/^kad_node_t *kad_const(float *x, int n_d, ...)$/;"	f
+kad_conv1d	.\kautodiff.c	/^kad_node_t *kad_conv1d(kad_node_t *x, kad_node_t *w, int stride, int left_pad)$/;"	f
+kad_conv2d	.\kautodiff.c	/^kad_node_t *kad_conv2d(kad_node_t *x, kad_node_t *w, int stride_r, int stride_c, int top_pad, int left_pad)$/;"	f
+kad_copy_dim1	.\kautodiff.c	/^static inline void kad_copy_dim1(kad_node_t *dst, const kad_node_t *src) \/* set the dimension\/shape of dst to src *\/$/;"	f	file:
+kad_delete	.\kautodiff.c	/^void kad_delete(int n, kad_node_t **a)$/;"	f
+kad_drand	.\kautodiff.c	/^double kad_drand(void *d)$/;"	f
+kad_drand_normal	.\kautodiff.c	/^double kad_drand_normal(void *d)$/;"	f
+kad_dropout	.\kautodiff.c	/^kad_node_t *kad_dropout(kad_node_t *x, kad_node_t *y)$/;"	f
+kad_dup1	.\kautodiff.c	/^static inline kad_node_t *kad_dup1(const kad_node_t *p)$/;"	f	file:
+kad_eval_at	.\kautodiff.c	/^const float *kad_eval_at(int n, kad_node_t **a, int from)$/;"	f
+kad_eval_disable	.\kautodiff.h	64;"	d
+kad_eval_enable	.\kautodiff.h	63;"	d
+kad_eval_marked	.\kautodiff.c	/^void kad_eval_marked(int n, kad_node_t **a)$/;"	f
+kad_ext_collate	.\kann.c	/^static void kad_ext_collate(int n, kad_node_t **a, float **_x, float **_g, float **_c)$/;"	f	file:
+kad_ext_sync	.\kann.c	/^static void kad_ext_sync(int n, kad_node_t **a, float *x, float *g, float *c)$/;"	f	file:
+kad_feed	.\kautodiff.c	/^kad_node_t *kad_feed(int n_d, ...)$/;"	f
+kad_finalize_node	.\kautodiff.c	/^static inline kad_node_t *kad_finalize_node(kad_node_t *s) \/* a helper function *\/$/;"	f	file:
+kad_grad	.\kautodiff.c	/^void kad_grad(int n, kad_node_t **a, int from)$/;"	f
+kad_is_back	.\kautodiff.h	54;"	d
+kad_is_const	.\kautodiff.h	57;"	d
+kad_is_ext	.\kautodiff.h	55;"	d
+kad_is_feed	.\kautodiff.h	58;"	d
+kad_is_pivot	.\kautodiff.h	59;"	d
+kad_is_switch	.\kautodiff.h	60;"	d
+kad_is_var	.\kautodiff.h	56;"	d
+kad_len	.\kautodiff.h	/^static inline int kad_len(const kad_node_t *p) \/* calculate the size of p->x *\/$/;"	f
+kad_load	.\kautodiff.c	/^kad_node_t **kad_load(FILE *fp, int *_n_node)$/;"	f
+kad_load1	.\kautodiff.c	/^static kad_node_t *kad_load1(FILE *fp, kad_node_t **node)$/;"	f	file:
+kad_mark_back	.\kautodiff.c	/^static void kad_mark_back(int n, kad_node_t **v)$/;"	f	file:
+kad_max	.\kautodiff.c	/^kad_node_t *kad_max(int n, kad_node_t **x)   { return kad_pooling_general(21, n, x); }$/;"	f
+kad_max1d	.\kautodiff.c	/^kad_node_t *kad_max1d(kad_node_t *x, int kernel_size, int stride, int left_pad)$/;"	f
+kad_max2d	.\kautodiff.c	/^kad_node_t *kad_max2d(kad_node_t *x, int kernel_r, int kernel_c, int stride_r, int stride_c, int top_pad, int left_pad)$/;"	f
+kad_n_pivots	.\kautodiff.c	/^int kad_n_pivots(int n_v, kad_node_t **v)$/;"	f
+kad_new_core	.\kautodiff.c	/^static inline kad_node_t *kad_new_core(int n_d, int op, int n_child)$/;"	f	file:
+kad_node_p	.\kautodiff.h	/^} kad_node_t, *kad_node_p;$/;"	t	typeref:struct:kad_node_t
+kad_node_t	.\kautodiff.h	/^typedef struct kad_node_t {$/;"	s
+kad_node_t	.\kautodiff.h	/^} kad_node_t, *kad_node_p;$/;"	t	typeref:struct:kad_node_t
+kad_op1_core	.\kautodiff.c	/^static inline kad_node_t *kad_op1_core(int op, kad_node_t *x)$/;"	f	file:
+kad_op2_core	.\kautodiff.c	/^static inline kad_node_t *kad_op2_core(int op, kad_node_t *x, kad_node_t *y)$/;"	f	file:
+kad_op_1minus	.\kautodiff.c	/^int kad_op_1minus(kad_node_t *p, int action)$/;"	f
+kad_op_add	.\kautodiff.c	/^int kad_op_add(kad_node_t *p, int action)$/;"	f
+kad_op_avg	.\kautodiff.c	/^int kad_op_avg(kad_node_t *p, int action)$/;"	f
+kad_op_avg1d	.\kautodiff.c	/^int kad_op_avg1d(kad_node_t *p, int action)$/;"	f
+kad_op_ce_bin	.\kautodiff.c	/^int kad_op_ce_bin(kad_node_t *p, int action)$/;"	f
+kad_op_ce_bin_neg	.\kautodiff.c	/^int kad_op_ce_bin_neg(kad_node_t *p, int action)$/;"	f
+kad_op_ce_multi	.\kautodiff.c	/^int kad_op_ce_multi(kad_node_t *p, int action)$/;"	f
+kad_op_cmul	.\kautodiff.c	/^int kad_op_cmul(kad_node_t *p, int action)$/;"	f
+kad_op_concat	.\kautodiff.c	/^int kad_op_concat(kad_node_t *p, int action)$/;"	f
+kad_op_conv1d	.\kautodiff.c	/^int kad_op_conv1d(kad_node_t *p, int action) \/* in the number-channel-width (NCW) shape *\/$/;"	f
+kad_op_conv2d	.\kautodiff.c	/^int kad_op_conv2d(kad_node_t *p, int action) \/* in the number-channel-height-width (NCHW) shape *\/$/;"	f
+kad_op_dropout	.\kautodiff.c	/^int kad_op_dropout(kad_node_t *p, int action)$/;"	f
+kad_op_exp	.\kautodiff.c	/^int kad_op_exp(kad_node_t *p, int action)$/;"	f
+kad_op_f	.\kautodiff.h	/^typedef int (*kad_op_f)(kad_node_t*, int);$/;"	t
+kad_op_list	.\kautodiff.c	/^kad_op_f kad_op_list[KAD_MAX_OP] = {$/;"	v
+kad_op_log	.\kautodiff.c	/^int kad_op_log(kad_node_t *p, int action)$/;"	f
+kad_op_matmul	.\kautodiff.c	/^int kad_op_matmul(kad_node_t *p, int action) \/* TODO: matmul and cmul have different broadcasting rules *\/$/;"	f
+kad_op_max	.\kautodiff.c	/^int kad_op_max(kad_node_t *p, int action)$/;"	f
+kad_op_max1d	.\kautodiff.c	/^int kad_op_max1d(kad_node_t *p, int action)$/;"	f
+kad_op_max2d	.\kautodiff.c	/^int kad_op_max2d(kad_node_t *p, int action)$/;"	f
+kad_op_mse	.\kautodiff.c	/^int kad_op_mse(kad_node_t *p, int action)$/;"	f
+kad_op_mul	.\kautodiff.c	/^int kad_op_mul(kad_node_t *p, int action)$/;"	f
+kad_op_name	.\kautodiff.c	/^char *kad_op_name[KAD_MAX_OP] = {$/;"	v
+kad_op_reduce_mean	.\kautodiff.c	/^int kad_op_reduce_mean(kad_node_t *p, int action)$/;"	f
+kad_op_reduce_sum	.\kautodiff.c	/^int kad_op_reduce_sum(kad_node_t *p, int action)$/;"	f
+kad_op_relu	.\kautodiff.c	/^int kad_op_relu(kad_node_t *p, int action)$/;"	f
+kad_op_reshape	.\kautodiff.c	/^int kad_op_reshape(kad_node_t *p, int action)$/;"	f
+kad_op_reverse	.\kautodiff.c	/^int kad_op_reverse(kad_node_t *p, int action)$/;"	f
+kad_op_sample_normal	.\kautodiff.c	/^int kad_op_sample_normal(kad_node_t *p, int action) \/* not tested *\/$/;"	f
+kad_op_select	.\kautodiff.c	/^int kad_op_select(kad_node_t *p, int action)$/;"	f
+kad_op_sigm	.\kautodiff.c	/^int kad_op_sigm(kad_node_t *p, int action)$/;"	f
+kad_op_sin	.\kautodiff.c	/^int kad_op_sin(kad_node_t *p, int action)$/;"	f
+kad_op_slice	.\kautodiff.c	/^int kad_op_slice(kad_node_t *p, int action)$/;"	f
+kad_op_softmax	.\kautodiff.c	/^int kad_op_softmax(kad_node_t *p, int action)$/;"	f
+kad_op_square	.\kautodiff.c	/^int kad_op_square(kad_node_t *p, int action)$/;"	f
+kad_op_stack	.\kautodiff.c	/^int kad_op_stack(kad_node_t *p, int action) \/* TODO: allow axis, as in TensorFlow *\/$/;"	f
+kad_op_stdnorm	.\kautodiff.c	/^int kad_op_stdnorm(kad_node_t *p, int action)$/;"	f
+kad_op_sub	.\kautodiff.c	/^int kad_op_sub(kad_node_t *p, int action)$/;"	f
+kad_op_tanh	.\kautodiff.c	/^int kad_op_tanh(kad_node_t *p, int action)$/;"	f
+kad_pooling_general	.\kautodiff.c	/^static kad_node_t *kad_pooling_general(int op, int n, kad_node_t **x)$/;"	f	file:
+kad_print_dot	.\examples\inspect.c	/^void kad_print_dot(FILE *fp, int n, kad_node_t **v)$/;"	f
+kad_print_graph	.\kautodiff.c	/^void kad_print_graph(FILE *fp, int n, kad_node_t **v)$/;"	f
+kad_propagate_marks	.\kautodiff.c	/^static void kad_propagate_marks(int n, kad_node_t **a)$/;"	f	file:
+kad_rand	.\kautodiff.c	/^uint64_t kad_rand(void *d) { return kad_xoroshiro128plus_next(d? (kad_rng_t*)d : &kad_rng_dat); }$/;"	f
+kad_reduce_general	.\kautodiff.c	/^static kad_node_t *kad_reduce_general(int op, kad_node_t *x, int axis)$/;"	f	file:
+kad_reduce_mean	.\kautodiff.c	/^kad_node_t *kad_reduce_mean(kad_node_t *x, int axis) { return kad_reduce_general(26, x, axis); }$/;"	f
+kad_reduce_sum	.\kautodiff.c	/^kad_node_t *kad_reduce_sum(kad_node_t *x, int axis)  { return kad_reduce_general(25, x, axis); }$/;"	f
+kad_reshape	.\kautodiff.c	/^kad_node_t *kad_reshape(kad_node_t *x, int n_d, int *d)$/;"	f
+kad_reverse	.\kautodiff.c	/^kad_node_t *kad_reverse(kad_node_t *x, int axis)$/;"	f
+kad_rng	.\kautodiff.c	/^void *kad_rng(void)$/;"	f
+kad_rng_dat	.\kautodiff.c	/^static kad_rng_t kad_rng_dat = { {0x50f5647d2380309dULL, 0x91ffa96fc4c62cceULL}, 0.0, 0, 0 };$/;"	v	file:
+kad_rng_t	.\kautodiff.c	/^} kad_rng_t;$/;"	t	typeref:struct:__anon5	file:
+kad_sample_normal	.\kautodiff.c	/^kad_node_t *kad_sample_normal(kad_node_t *x)$/;"	f
+kad_save	.\kautodiff.c	/^int kad_save(FILE *fp, int n_node, kad_node_t **node)$/;"	f
+kad_save1	.\kautodiff.c	/^static void kad_save1(FILE *fp, const kad_node_t *p)$/;"	f	file:
+kad_saxpy	.\kautodiff.c	/^void kad_saxpy(int n, float a, const float *x, float *y) { kad_saxpy_inlined(n, a, x, y); }$/;"	f
+kad_saxpy_inlined	.\kautodiff.c	/^static inline void kad_saxpy_inlined(int n, float a, const float *x, float *y) \/* BLAS saxpy using SSE *\/$/;"	f	file:
+kad_saxpy_inlined	.\kautodiff.c	/^static inline void kad_saxpy_inlined(int n, float a, const float *x, float *y) \/\/ BLAS saxpy$/;"	f	file:
+kad_sdot	.\kautodiff.c	/^static inline float kad_sdot(int n, const float *x, const float *y) \/* BLAS sdot *\/$/;"	f	file:
+kad_sdot	.\kautodiff.c	/^static inline float kad_sdot(int n, const float *x, const float *y) \/* BLAS sdot using SSE *\/$/;"	f	file:
+kad_select	.\kautodiff.c	/^kad_node_t *kad_select(int n, kad_node_t **x, int which)$/;"	f
+kad_sgemm_simple	.\kautodiff.c	/^void kad_sgemm_simple(int trans_A, int trans_B, int M, int N, int K, const float *A, const float *B, float *C) \/* simplified BLAS sgemm *\/$/;"	f
+kad_sgemm_simple	.\kautodiff.c	/^void kad_sgemm_simple(int trans_A, int trans_B, int M, int N, int K, const float *A, const float *B, float *C)$/;"	f
+kad_size_const	.\kautodiff.c	/^int kad_size_const(int n, kad_node_t *const* v)$/;"	f
+kad_size_var	.\kautodiff.c	/^int kad_size_var(int n, kad_node_t *const* v)$/;"	f
+kad_slice	.\kautodiff.c	/^kad_node_t *kad_slice(kad_node_t *x, int axis, int start, int end)$/;"	f
+kad_splitmix64	.\kautodiff.c	/^static inline uint64_t kad_splitmix64(uint64_t x)$/;"	f	file:
+kad_srand	.\kautodiff.c	/^void kad_srand(void *d, uint64_t seed)$/;"	f
+kad_stack	.\kautodiff.c	/^kad_node_t *kad_stack(int n, kad_node_t **x) { return kad_pooling_general(35, n, x); }$/;"	f
+kad_switch	.\kautodiff.c	/^kad_node_t *kad_switch(int n, kad_node_t **p)$/;"	f
+kad_sync_dim	.\kautodiff.c	/^int kad_sync_dim(int n, kad_node_t **v, int batch_size)$/;"	f
+kad_trap_fe	.\kautodiff.c	/^void kad_trap_fe(void)$/;"	f
+kad_unroll	.\kautodiff.c	/^kad_node_t **kad_unroll(int n_v, kad_node_t **v, int *new_n, int *len)$/;"	f
+kad_unroll_helper	.\kautodiff.c	/^static void kad_unroll_helper(int n_v, kad_node_t **v, int i_pivot, kad_node_t **t, int len, nodes_t *w)$/;"	f	file:
+kad_use_rng	.\kautodiff.h	61;"	d
+kad_var	.\kautodiff.c	/^kad_node_t *kad_var(float *x, float *g, int n_d, ...)$/;"	f
+kad_vec_mul_sum	.\kautodiff.c	/^void kad_vec_mul_sum(int n, float *a, const float *b, const float *c)$/;"	f
+kad_vleaf	.\kautodiff.c	/^static inline kad_node_t *kad_vleaf(uint8_t flag, float *x, float *g, int n_d, va_list ap)$/;"	f	file:
+kad_xoroshiro128plus_jump	.\kautodiff.c	/^static inline void kad_xoroshiro128plus_jump(kad_rng_t *r)$/;"	f	file:
+kad_xoroshiro128plus_next	.\kautodiff.c	/^static inline uint64_t kad_xoroshiro128plus_next(kad_rng_t *r)$/;"	f	file:
+kann_RMSprop	.\kann.c	/^void kann_RMSprop(int n, float h0, const float *h, float decay, const float *g, float *t, float *r)$/;"	f
+kann_apply1	.\kann.c	/^const float *kann_apply1(kann_t *a, float *x)$/;"	f
+kann_apply1_to	.\kann.c	/^const float *kann_apply1_to(kann_t *a, float *x, int ext_flag, int ext_label)$/;"	f
+kann_class_error	.\kann.c	/^int kann_class_error(const kann_t *a, int *base) { return kann_class_error_core(a, base); }$/;"	f
+kann_class_error	.\kann.c	/^int kann_class_error(const kann_t *ann, int *base)$/;"	f
+kann_class_error_core	.\kann.c	/^static int kann_class_error_core(const kann_t *ann, int *base)$/;"	f	file:
+kann_clone	.\kann.c	/^kann_t *kann_clone(kann_t *a, int batch_size)$/;"	f
+kann_cmul_norm	.\kann.c	/^static kad_node_t *kann_cmul_norm(kad_node_t *x, kad_node_t *w)$/;"	f	file:
+kann_cost	.\kann.c	/^float kann_cost(kann_t *a, int cost_label, int cal_grad) { return kann_cost_core(a, cost_label, cal_grad); }$/;"	f
+kann_cost	.\kann.c	/^float kann_cost(kann_t *a, int cost_label, int cal_grad)$/;"	f
+kann_cost_core	.\kann.c	/^static float kann_cost_core(kann_t *a, int cost_label, int cal_grad)$/;"	f	file:
+kann_cost_fnn1	.\kann.c	/^float kann_cost_fnn1(kann_t *ann, int n, float **x, float **y)$/;"	f
+kann_data_free	.\kann_extra\kann_data.c	/^void kann_data_free(kann_data_t *d)$/;"	f
+kann_data_read	.\kann_extra\kann_data.c	/^kann_data_t *kann_data_read(const char *fn)$/;"	f
+kann_data_t	.\kann_extra\kann_data.h	/^typedef struct kann_data_t {$/;"	s
+kann_data_t	.\kann_extra\kann_data.h	/^} kann_data_t;$/;"	t	typeref:struct:kann_data_t
+kann_delete	.\kann.c	/^void kann_delete(kann_t *a)$/;"	f
+kann_delete_unrolled	.\kann.c	/^void kann_delete_unrolled(kann_t *a)$/;"	f
+kann_dim_in	.\kann.h	59;"	d
+kann_dim_out	.\kann.h	60;"	d
+kann_drand	.\kann.h	62;"	d
+kann_eval	.\kann.c	/^int kann_eval(kann_t *a, uint32_t ext_flag, int ext_label)$/;"	f
+kann_eval_out	.\kann.c	/^int kann_eval_out(kann_t *a) { return kann_eval(a, KANN_F_OUT, 0); }$/;"	f
+kann_eval_out	.\kann.c	/^int kann_eval_out(kann_t *a)$/;"	f
+kann_feed_bind	.\kann.c	/^int kann_feed_bind(kann_t *a, uint32_t ext_flag, int32_t ext_label, float **x)$/;"	f
+kann_feed_dim	.\kann.c	/^int kann_feed_dim(const kann_t *a, uint32_t ext_flag, int32_t ext_label)$/;"	f
+kann_find	.\kann.c	/^int kann_find(const kann_t *a, uint32_t ext_flag, int32_t ext_label)$/;"	f
+kann_grad_clip	.\kann.c	/^float kann_grad_clip(float thres, int n, float *g)$/;"	f
+kann_layer_conv1d	.\kann.c	/^kad_node_t *kann_layer_conv1d(kad_node_t *in, int n_flt, int k_size, int stride, int pad)$/;"	f
+kann_layer_conv2d	.\kann.c	/^kad_node_t *kann_layer_conv2d(kad_node_t *in, int n_flt, int k_rows, int k_cols, int stride_r, int stride_c, int pad_r, int pad_c)$/;"	f
+kann_layer_cost	.\kann.c	/^kad_node_t *kann_layer_cost(kad_node_t *t, int n_out, int cost_type)$/;"	f
+kann_layer_dense	.\kann.c	/^kad_node_t *kann_layer_dense(kad_node_t *in, int n1) { return kann_layer_dense2(0, 0, in, n1); }$/;"	f
+kann_layer_dense2	.\kann.c	/^kad_node_t *kann_layer_dense2(int *offset, kad_node_p *par, kad_node_t *in, int n1)$/;"	f
+kann_layer_dropout	.\kann.c	/^kad_node_t *kann_layer_dropout(kad_node_t *t, float r) { return kann_layer_dropout2(0, 0, t, r); }$/;"	f
+kann_layer_dropout2	.\kann.c	/^kad_node_t *kann_layer_dropout2(int *offset, kad_node_p *par, kad_node_t *t, float r)$/;"	f
+kann_layer_gru	.\kann.c	/^kad_node_t *kann_layer_gru(kad_node_t *in, int n1, int rnn_flag)$/;"	f
+kann_layer_gru2	.\kann.c	/^kad_node_t *kann_layer_gru2(int *offset, kad_node_t **par, kad_node_t *in, kad_node_t *h0, int rnn_flag)$/;"	f
+kann_layer_input	.\kann.c	/^kad_node_t *kann_layer_input(int n1)$/;"	f
+kann_layer_layernorm	.\kann.c	/^kad_node_t *kann_layer_layernorm(kad_node_t *in) { return kann_layer_layernorm2(0, 0, in); }$/;"	f
+kann_layer_layernorm2	.\kann.c	/^kad_node_t *kann_layer_layernorm2(int *offset, kad_node_t **par, kad_node_t *in)$/;"	f
+kann_layer_lstm	.\kann.c	/^kad_node_t *kann_layer_lstm(kad_node_t *in, int n1, int rnn_flag)$/;"	f
+kann_layer_rnn	.\kann.c	/^kad_node_t *kann_layer_rnn(kad_node_t *in, int n1, int rnn_flag)$/;"	f
+kann_layer_rnn2	.\kann.c	/^kad_node_t *kann_layer_rnn2(int *offset, kad_node_t **par, kad_node_t *in, kad_node_t *h0, int rnn_flag)$/;"	f
+kann_load	.\kann.c	/^kann_t *kann_load(const char *fn)$/;"	f
+kann_load_fp	.\kann.c	/^kann_t *kann_load_fp(FILE *fp)$/;"	f
+kann_mt	.\kann.c	/^void kann_mt(kann_t *ann, int n_threads, int max_batch_size) {}$/;"	f
+kann_mt	.\kann.c	/^void kann_mt(kann_t *ann, int n_threads, int max_batch_size)$/;"	f
+kann_new	.\kann.c	/^kann_t *kann_new(kad_node_t *cost, int n_rest, ...)$/;"	f
+kann_new_bias	.\kann.c	/^kad_node_t *kann_new_bias(int n) { return kann_new_vec(n, 0.0f); }$/;"	f
+kann_new_leaf	.\kann.c	/^kad_node_t *kann_new_leaf(uint8_t flag, float x0_01, int n_d, ...)$/;"	f
+kann_new_leaf2	.\kann.c	/^kad_node_t *kann_new_leaf2(int *offset, kad_node_p *par, uint8_t flag, float x0_01, int n_d, ...)$/;"	f
+kann_new_leaf_array	.\kann.c	/^kad_node_t *kann_new_leaf_array(int *offset, kad_node_p *par, uint8_t flag, float x0_01, int n_d, int32_t d[KAD_MAX_DIM])$/;"	f
+kann_new_scalar	.\kann.c	/^kad_node_t *kann_new_scalar(uint8_t flag, float x) { return kann_new_leaf(flag, x, 0); }$/;"	f
+kann_new_vec	.\kann.c	/^kad_node_t *kann_new_vec(int n, float x) { return kann_new_leaf(KAD_VAR, x, 1, n); }$/;"	f
+kann_new_weight	.\kann.c	/^kad_node_t *kann_new_weight(int n_row, int n_col) { return kann_new_leaf(KAD_VAR, 0.0f, 2, n_row, n_col); }$/;"	f
+kann_new_weight_conv1d	.\kann.c	/^kad_node_t *kann_new_weight_conv1d(int n_out, int n_in, int kernel_len) { return kann_new_leaf(KAD_VAR, 0.0f, 3, n_out, n_in, kernel_len); }$/;"	f
+kann_new_weight_conv2d	.\kann.c	/^kad_node_t *kann_new_weight_conv2d(int n_out, int n_in, int k_row, int k_col) { return kann_new_leaf(KAD_VAR, 0.0f, 4, n_out, n_in, k_row, k_col); }$/;"	f
+kann_rnn_end	.\kann.c	/^void kann_rnn_end(kann_t *a)$/;"	f
+kann_rnn_start	.\kann.c	/^void kann_rnn_start(kann_t *a)$/;"	f
+kann_save	.\kann.c	/^void kann_save(const char *fn, kann_t *ann)$/;"	f
+kann_save_fp	.\kann.c	/^void kann_save_fp(FILE *fp, kann_t *ann)$/;"	f
+kann_set_batch_size	.\kann.h	63;"	d
+kann_shuffle	.\kann.c	/^void kann_shuffle(int n, int *s)$/;"	f
+kann_size_const	.\kann.h	58;"	d
+kann_size_var	.\kann.h	57;"	d
+kann_srand	.\kann.h	61;"	d
+kann_switch	.\kann.c	/^void kann_switch(kann_t *ann, int is_train) { return kann_switch_core(ann, is_train); }$/;"	f
+kann_switch	.\kann.c	/^void kann_switch(kann_t *ann, int is_train)$/;"	f
+kann_switch_core	.\kann.c	/^static void kann_switch_core(kann_t *a, int is_train)$/;"	f	file:
+kann_t	.\kann.h	/^} kann_t;$/;"	t	typeref:struct:__anon4
+kann_train_fnn1	.\kann.c	/^int kann_train_fnn1(kann_t *ann, float lr, int mini_size, int max_epoch, int max_drop_streak, float frac_val, int n, float **_x, float **_y)$/;"	f
+kann_unroll	.\kann.c	/^kann_t *kann_unroll(kann_t *a, ...)$/;"	f
+kann_unroll_array	.\kann.c	/^kann_t *kann_unroll_array(kann_t *a, int *len)$/;"	f
+kann_verbose	.\kann.c	/^int kann_verbose = 3;$/;"	v
+kernel_size	.\kautodiff.c	/^	int kernel_size, stride, pad[2];$/;"	m	struct:__anon6	file:
+klib_unused	.\kann_extra\kseq.h	37;"	d
+klib_unused	.\kann_extra\kseq.h	39;"	d
+kroundup32	.\kann_extra\kseq.h	98;"	d
+ks_eof	.\kann_extra\kseq.h	56;"	d
+ks_rewind	.\kann_extra\kseq.h	57;"	d
+kseq_rewind	.\kann_extra\kseq.h	170;"	d
+kstring_t	.\kann_extra\kseq.h	/^} kstring_t;$/;"	t	typeref:struct:__kstring_t
+kv_pop	.\kautodiff.c	421;"	d	file:
+kv_push	.\kautodiff.c	423;"	d	file:
+kv_roundup32	.\examples\textgen.c	18;"	d	file:
+kvec_t	.\kautodiff.c	419;"	d	file:
+l	.\kann_extra\kseq.h	/^	size_t l, m;$/;"	m	struct:__kstring_t
+len	.\examples\textgen.c	/^	int len, n_char, n_para, *para_len;$/;"	m	struct:__anon2	file:
+load_model	.\examples\keras\mlp.py	/^from keras.models import Sequential, load_model$/;"	i
+load_model	.\examples\keras\rnn-bit.py	/^from keras.models import Sequential, load_model$/;"	i
+lock	.\kautodiff.c	/^	volatile int lock;$/;"	m	struct:__anon5	file:
+m	.\examples\rnn-bit.c	/^	int n, m;$/;"	m	struct:__anon1	file:
+m	.\kann_extra\kseq.h	/^	size_t l, m;$/;"	m	struct:__kstring_t
+m	.\kautodiff.c	/^	int32_t n, m;$/;"	m	struct:__anon7	file:
+main	.\examples\ae.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\inspect.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\keras\mlp.py	/^def main(argv):$/;"	f
+main	.\examples\keras\rnn-bit.py	/^def main(argv):$/;"	f
+main	.\examples\mlp.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\mnist-cnn.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\rnn-bit.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\tensorflow\mlp.py	/^def main(argv):$/;"	f
+main	.\examples\textgen.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\tiny-dnn\mlp.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	.\examples\vae.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\mlp.c	/^int main(int argc, char *argv[])$/;"	f
+max_batch_size	.\kann.c	/^	int n_threads, max_batch_size;$/;"	m	struct:mtaux_t	file:
+mlp_data_read	.\examples\keras\mlp.py	/^def mlp_data_read(fn):$/;"	f
+mlp_data_read	.\examples\tensorflow\mlp.py	/^def mlp_data_read(fn):$/;"	f
+mlp_float2vec	.\examples\tiny-dnn\mlp.cpp	/^void mlp_float2vec(std::vector<vec_t> &data, int n, int m, float **x)$/;"	f
+mlp_model_gen	.\examples\tensorflow\mlp.py	/^def mlp_model_gen(n_in, n_out, n_layer, n_hidden, use_multi_ce):$/;"	f
+mlp_model_gen	.\examples\tiny-dnn\mlp.cpp	/^network<sequential> mlp_model_gen(int n_in, int n_out, int n_layer, int n_hidden)$/;"	f
+mnist_cnn_model_gen	.\examples\tiny-dnn\mlp.cpp	/^network<sequential> mnist_cnn_model_gen(void)$/;"	f
+model_gen	.\examples\ae.c	/^static kann_t *model_gen(int n_in, int n_hidden, float i_dropout)$/;"	f	file:
+model_gen	.\examples\mlp.c	/^static kann_t *model_gen(int n_in, int n_out, int loss_type, int n_h_layers, int n_h_neurons, float h_dropout)$/;"	f	file:
+model_gen	.\examples\textgen.c	/^static kann_t *model_gen(int model, int n_char, int n_h_layers, int n_h_neurons, float h_dropout, int use_norm)$/;"	f	file:
+model_gen	.\examples\vae.c	/^static kann_t *model_gen(int n_in, int n_hidden, int n_code)$/;"	f	file:
+model_gen	.\mlp.c	/^static kann_t *model_gen(int n_in, int n_out, int loss_type, int n_h_layers, int n_h_neurons, float h_dropout)$/;"	f	file:
+mt	.\kann.c	/^	mtaux1_t *mt;$/;"	m	struct:mtaux_t	file:
+mt	.\kann.h	/^	void *mt;         \/* auxiliary data for multi-threading; NULL if multi-threading disabled *\/$/;"	m	struct:__anon4
+mt_destroy	.\kann.c	/^static void mt_destroy(mtaux_t *mt) \/* de-allocate an entire mtaux_t struct *\/$/;"	f	file:
+mt_kickoff	.\kann.c	/^static void mt_kickoff(kann_t *a, int cost_label, int cal_grad, int eval_out)$/;"	f	file:
+mt_worker	.\kann.c	/^static void *mt_worker(void *data) \/* pthread worker *\/$/;"	f	file:
+mtaux1_t	.\kann.c	/^} mtaux1_t;$/;"	t	typeref:struct:__anon3	file:
+mtaux_t	.\kann.c	/^typedef struct mtaux_t { \/* cross-worker data *\/$/;"	s	file:
+mtaux_t	.\kann.c	/^} mtaux_t;$/;"	t	typeref:struct:mtaux_t	file:
+mtx	.\kann.c	/^	pthread_mutex_t mtx;$/;"	m	struct:mtaux_t	file:
+n	.\examples\rnn-bit.c	/^	int n, m;$/;"	m	struct:__anon1	file:
+n	.\kann.h	/^	int n;            \/* number of nodes in the computational graph *\/$/;"	m	struct:__anon4
+n	.\kautodiff.c	/^	int32_t n, m;$/;"	m	struct:__anon7	file:
+n_char	.\examples\textgen.c	/^	int len, n_char, n_para, *para_len;$/;"	m	struct:__anon2	file:
+n_child	.\kautodiff.h	/^	int32_t     n_child;        \/* number of operands\/child nodes *\/$/;"	m	struct:kad_node_t
+n_col	.\kann_extra\kann_data.h	/^	int n_row, n_col, n_grp;$/;"	m	struct:kann_data_t
+n_d	.\kautodiff.h	/^	uint8_t     n_d;            \/* number of dimensions; no larger than KAD_MAX_DIM *\/$/;"	m	struct:kad_node_t
+n_grp	.\kann_extra\kann_data.h	/^	int n_row, n_col, n_grp;$/;"	m	struct:kann_data_t
+n_gset	.\kautodiff.c	/^	double n_gset;$/;"	m	struct:__anon5	file:
+n_idle	.\kann.c	/^	volatile int n_idle; \/* we will be busy waiting on this, so volatile necessary *\/$/;"	m	struct:mtaux_t	file:
+n_in	.\examples\rnn-bit.c	/^	int n_in, ulen;$/;"	m	struct:__anon1	file:
+n_iset	.\kautodiff.c	/^	int n_iset;$/;"	m	struct:__anon5	file:
+n_para	.\examples\textgen.c	/^	int len, n_char, n_para, *para_len;$/;"	m	struct:__anon2	file:
+n_row	.\kann_extra\kann_data.h	/^	int n_row, n_col, n_grp;$/;"	m	struct:kann_data_t
+n_threads	.\kann.c	/^	int n_threads, max_batch_size;$/;"	m	struct:mtaux_t	file:
+nodes_t	.\kautodiff.c	/^} nodes_t;$/;"	t	typeref:struct:__anon7	file:
+np	.\examples\keras\mlp.py	/^import numpy as np$/;"	i
+np	.\examples\keras\rnn-bit.py	/^import numpy as np$/;"	i
+np	.\examples\tensorflow\mlp.py	/^import numpy as np$/;"	i
+op	.\kautodiff.h	/^	uint16_t    op;             \/* operator; kad_op_list[op] is the actual function *\/$/;"	m	struct:kad_node_t
+os	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+pad	.\kautodiff.c	/^	int kernel_size, stride, pad[2];$/;"	m	struct:__anon6	file:
+para	.\examples\textgen.c	/^	uint8_t *data, **para;$/;"	m	struct:__anon2	file:
+para_len	.\examples\textgen.c	/^	int len, n_char, n_para, *para_len;$/;"	m	struct:__anon2	file:
+pre	.\kautodiff.h	/^	struct kad_node_t  *pre;    \/* usually NULL; only used for RNN *\/$/;"	m	struct:kad_node_t	typeref:struct:kad_node_t::kad_node_t
+process_row_back_w	.\kautodiff.c	1924;"	d	file:
+process_row_back_x	.\kautodiff.c	1912;"	d	file:
+process_row_for	.\kautodiff.c	1901;"	d	file:
+ptr	.\kautodiff.h	/^	void       *ptr;            \/* for special operators that need additional parameters (e.g. conv2d) *\/$/;"	m	struct:kad_node_t
+ptr_size	.\kautodiff.h	/^	int32_t     ptr_size;       \/* size of ptr below *\/$/;"	m	struct:kad_node_t
+push_nodes	.\kautodiff.c	/^static inline void push_nodes(nodes_t *w, kad_node_t *p)$/;"	f	file:
+rb_model_gen	.\examples\keras\rnn-bit.py	/^def rb_model_gen(n_in, n_layer, n_hidden, ulen, dropout):$/;"	f
+rb_read_data	.\examples\keras\rnn-bit.py	/^def rb_read_data(fn):$/;"	f
+rb_usage	.\examples\keras\rnn-bit.py	/^def rb_usage():$/;"	f
+re	.\examples\keras\mlp.py	/^import sys, getopt, re, gzip, time$/;"	i
+re	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+read_data	.\examples\rnn-bit.c	/^static bit_data_t *read_data(const char *fn)$/;"	f	file:
+read_int	.\examples\rnn-bit.c	/^static int read_int(FILE *fp, uint64_t x[MAX_FIELDS])$/;"	f	file:
+rname	.\kann_extra\kann_data.h	/^	char **rname, **cname;$/;"	m	struct:kann_data_t
+s	.\kann_extra\kseq.h	/^	char *s;$/;"	m	struct:__kstring_t
+s	.\kautodiff.c	/^	uint64_t s[2];$/;"	m	struct:__anon5	file:
+stride	.\kautodiff.c	/^	int kernel_size, stride, pad[2];$/;"	m	struct:__anon6	file:
+sys	.\examples\keras\mlp.py	/^import sys, getopt, re, gzip, time$/;"	i
+sys	.\examples\keras\rnn-bit.py	/^import sys, getopt, time$/;"	i
+sys	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+tf	.\examples\tensorflow\mlp.py	/^import tensorflow as tf$/;"	i
+tg_data_t	.\examples\textgen.c	/^} tg_data_t;$/;"	t	typeref:struct:__anon2	file:
+tg_gen	.\examples\textgen.c	/^void tg_gen(FILE *fp, kann_t *ann, float temp, int len, const int c2i[256], const char *seed)$/;"	f
+tg_init	.\examples\textgen.c	/^tg_data_t *tg_init(const char *fn)$/;"	f
+tg_load	.\examples\textgen.c	/^kann_t *tg_load(const char *fn, int c2i[256])$/;"	f
+tg_perplexity	.\examples\textgen.c	/^float tg_perplexity(kann_t *ann, const tg_data_t *tg)$/;"	f
+tg_read_file	.\examples\textgen.c	/^uint8_t *tg_read_file(const char *fn, int *_len)$/;"	f
+tg_save	.\examples\textgen.c	/^void tg_save(const char *fn, kann_t *ann, const int c2i[256])$/;"	f
+tg_train	.\examples\textgen.c	/^void tg_train(kann_t *ann, const tg_data_t *tg, float lr, int ulen, int vlen, int cs, int mbs, int max_epoch, float grad_clip, const char *fn, int batch_len, int n_threads)$/;"	f
+tg_urnn_start	.\examples\textgen.c	/^int tg_urnn_start(kann_t *ann, int batch_size)$/;"	f
+tid	.\kann.c	/^	pthread_t tid;$/;"	m	struct:__anon3	file:
+time	.\examples\keras\mlp.py	/^import sys, getopt, re, gzip, time$/;"	i
+time	.\examples\keras\rnn-bit.py	/^import sys, getopt, time$/;"	i
+time	.\examples\tensorflow\mlp.py	/^import sys, getopt, os, re, gzip, time$/;"	i
+tmp	.\kautodiff.h	/^	int32_t     tmp;            \/* temporary field; MUST BE zero before calling kad_compile() *\/$/;"	m	struct:kad_node_t
+train	.\examples\rnn-bit.c	/^static void train(kann_t *ann, bit_data_t *d, float lr, int mini_size, int max_epoch, const char *fn, int n_threads)$/;"	f	file:
+train_help	.\examples\keras\mlp.py	/^	def train_help():$/;"	f	function:main
+train_help	.\examples\tensorflow\mlp.py	/^	def train_help():$/;"	f	function:main
+ulen	.\examples\rnn-bit.c	/^	int n_in, ulen;$/;"	m	struct:__anon1	file:
+v	.\kann.h	/^	kad_node_t **v;   \/* list of nodes *\/$/;"	m	struct:__anon4
+v	.\kautodiff.c	/^	kad_node_t **v;$/;"	m	struct:__anon7	file:
+x	.\examples\rnn-bit.c	/^	uint64_t *x, *y;$/;"	m	struct:__anon1	file:
+x	.\kann.h	/^	float *x, *g, *c; \/* collated variable values, gradients and constant values *\/$/;"	m	struct:__anon4
+x	.\kann_extra\kann_data.h	/^	float **x;$/;"	m	struct:kann_data_t
+x	.\kautodiff.h	/^	float      *x;              \/* value; allocated for internal nodes *\/$/;"	m	struct:kad_node_t
+y	.\examples\rnn-bit.c	/^	uint64_t *x, *y;$/;"	m	struct:__anon1	file:

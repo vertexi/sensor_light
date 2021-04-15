@@ -45,3 +45,6 @@ that need target processor handle everything.
 ## prepare to the next test
 
 need to do a g2553 float multiplication bench mark and accuary check.
+
+## need tot write the feedforward function
+
