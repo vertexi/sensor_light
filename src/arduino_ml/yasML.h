@@ -126,10 +126,12 @@ int print(Matrix *m){
 		return FAIL;
 	for(i = 0; i < m->rows; i++){
 		for(j = 0; j < m->columns; j++){
-			printf("%f ", m->numbers[j][i]);
+      Serial.print(m->numbers[j][i]);Serial.print(" ");
+			//printf("%f ", m->numbers[j][i]);
 		}
-		printf("\n");
-	}
+    //printf("\n");
+    Serial.print("\n");
+  }
 	return SUCC;
 }
 
