@@ -33,9 +33,8 @@ void setup()
   Serial.println("theta1");
   print_m((double *)theta1, NN_n, NN_h);
 
-  Serial.println("multiply");
-  multiply((double *)sample, NN_m, NN_n, (double *)theta1, NN_n, NN_h, (double *)a1);
-  print_m((double *)a1, NN_m, NN_h);
+  Serial.println("feedforward");
+  feedforward();
 }
 
 void loop()
@@ -52,7 +51,7 @@ void test_init()
   {
     for (j = 0; j < NN_n; j++)
     {
-      sample[i][j] = ((double)random(1000))/((double)100.0); 
+      sample[i][j] = ((double)random(1000))/((double)1000.0); 
     }
   }
   Serial.println("sample_init");//debug_message
@@ -61,7 +60,7 @@ void test_init()
   {
     for (j = 0; j < NN_h; j++)
     {
-      theta1[i][j] = ((double)random(1000))/((double)100.0);
+      theta1[i][j] = ((double)random(1000))/((double)1000.0);
     }
   }
   Serial.println("theta1_init");//debug_message
@@ -70,7 +69,7 @@ void test_init()
   {
     for (j = 0; j < NN_o; j++)
     {
-      theta2[i][j] = ((double)random(1000))/((double)10000.0);
+      theta2[i][j] = ((double)random(1000))/((double)1000.0);
     }
   }
   Serial.println("theta2_init");//debug_message
@@ -94,44 +93,42 @@ void test_init()
   return;
 }
 
-//Matrix *sigmoid_matrix(Matrix *variable)
-//{
-//  int row_num = variable->rows;
-//  int col_num = variable->columns;
-//
-//  Matrix *res = constructor(row_num, col_num);
-//  for(int i = 0; i < row_num; i++)
-//  {
-//    for(int j = 0; j < col_num; j++)
-//    {
-//      res->numbers[i][j] = sigmoid(variable->numbers[i][j]);
-//    }
-//  }
-//
-//  return res;
-//}
-//
-//double sigmoid(double num)
-//{
-//  return (1/(1+pow(EULER, -num)));
-//}
+void sigmoid_matrix(double *matrix, int m, int n)
+{
+  for(int i = 0; i < m; i++)
+  {
+    for(int j = 0; j < n; j++)
+    {
+      *((matrix+i*n)+j) = sigmoid(*((matrix+i*n)+j));
+    }
+  }
+}
 
-/*
+double sigmoid(double num)
+{
+  return (1/(1+pow(EULER, -num)));
+}
+
+
 void feedforward()
 {
-  int row_num = sample->rows;
-  int col_num = sample->columns;
+  Serial.println("sample*theta1");
+  multiply((double *)sample, NN_m, NN_n, (double *)theta1, NN_n, NN_h, (double *)a1);
+  print_m((double *)a1, NN_m, NN_h);
+  sigmoid_matrix((double *)a1, NN_m, NN_h);
+  Serial.println("sample*theta1 sigmoid");
+  print_m((double *)a1, NN_m, NN_h);
 
-  Matrix *x1 = multiply(sample, theta1);
-  a1 = sigmoid_matrix(x1);
+  Serial.println("theta2");
+  print_m((double *)theta2, NN_h, NN_o);
 
-  Matrix *x2 = multiply(a1, theta2);
-  a2 = sigmoid_matrix(x2);
-
-  destroy_matrix(x1);
-  destroy_matrix(x2);
+  Serial.println("a1*theta2");
+  multiply((double *)a1, NN_m, NN_n, (double *)theta2, NN_n, NN_h, (double *)a2);
+  print_m((double *)a2, NN_m, NN_o);
+  sigmoid_matrix((double *)a2, NN_m, NN_h);
+  Serial.println("a2 sigmoid");
+  print_m((double *)a2, NN_m, NN_o);
 }
-*/
 
 double cost_func()
 {
